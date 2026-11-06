@@ -1,0 +1,27 @@
+
+> zbrl-offstack-abap-check@1.0.0 unit
+> npm run clean && abap_transpile abap_transpile.json && node output/index.mjs
+
+
+> zbrl-offstack-abap-check@1.0.0 clean
+> node -e "require('fs').rmSync('output',{recursive:true,force:true})"
+
+Transpiler CLI
+Using config: abap_transpile.json
+3 files added from source
+14 files skipped in source
+
+Building
+Clone: https://github.com/open-abap/open-abap-core
+	commit: f735eed652288c8ed85b3083a187cc3e7e4a9b97
+	726 files added from lib
+
+
+Output
+Output files: 923 written
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->completeness_and_gap
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->conditions_and_causes
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->recurring_causes
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->task_status_and_recovery
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->recovery_not_yet_improved
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->time_helpers

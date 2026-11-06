@@ -1,0 +1,462 @@
+{
+ "A": [
+  {
+   "test": "request 0F0320000002CEE5",
+   "ok": true
+  },
+  {
+   "test": "request 0F0320040001CF25",
+   "ok": true
+  },
+  {
+   "test": "request 0F03200600016EE5",
+   "ok": true
+  },
+  {
+   "test": "printed CRC 2F 9A matches the breakdown bytes 3C BB 08 2F",
+   "ok": true
+  },
+  {
+   "test": "frame line 3C BB 28 2F (typo) is rejected as a CRC error",
+   "ok": true
+  },
+  {
+   "test": "NH3 example decodes to 0.0 ppm (0.0228 at 0.1 ppm resolution)",
+   "ok": true,
+   "value": 0.0
+  },
+  {
+   "test": "temperature example 0x0AF9 -> 28.09 C",
+   "ok": true
+  },
+  {
+   "test": "humidity example 0x18BD -> 63.33 %RH",
+   "ok": true
+  }
+ ],
+ "B": [
+  {
+   "test": "T: all 1692 decoded values equal the documented quantisation",
+   "ok": true,
+   "exact": 1692,
+   "max_abs_error": 0.05
+  },
+  {
+   "test": "RH: all 1692 decoded values equal the documented quantisation",
+   "ok": true,
+   "exact": 1692,
+   "max_abs_error": 0.02
+  },
+  {
+   "test": "CO2: all 1692 decoded values equal the documented quantisation",
+   "ok": true,
+   "exact": 1692,
+   "max_abs_error": 0.0
+  },
+  {
+   "test": "NH3: all 1692 decoded values equal the documented quantisation",
+   "ok": true,
+   "exact": 1692,
+   "max_abs_error": 0.0
+  },
+  {
+   "test": "V: all 1692 decoded values equal the documented quantisation",
+   "ok": true,
+   "exact": 1692,
+   "max_abs_error": 0.0
+  },
+  {
+   "test": "boundary T=-30.0 RH=0.0 CO2=0.0",
+   "ok": true
+  },
+  {
+   "test": "boundary T=-0.1 RH=100.0 CO2=10000.0",
+   "ok": true
+  },
+  {
+   "test": "boundary T=70.0 RH=50.0 CO2=400.0",
+   "ok": true
+  },
+  {
+   "test": "boundary NH3=0.0",
+   "ok": true
+  },
+  {
+   "test": "boundary NH3=0.1",
+   "ok": true
+  },
+  {
+   "test": "boundary NH3=100.0",
+   "ok": true
+  },
+  {
+   "test": "boundary V=0.0",
+   "ok": true
+  },
+  {
+   "test": "boundary V=0.01",
+   "ok": true
+  },
+  {
+   "test": "boundary V=50.0",
+   "ok": true
+  }
+ ],
+ "B_summary": {
+  "records": 1692,
+  "polls": 1692,
+  "transactions": 10206,
+  "max_abs_error": {
+   "T": 0.05,
+   "RH": 0.02,
+   "CO2": 0.0,
+   "NH3": 0.0,
+   "V": 0.0
+  },
+  "seconds": 42.5
+ },
+ "C": [
+  {
+   "test": "all six devices valid at start",
+   "ok": true
+  },
+  {
+   "test": "silent NH3 sensor: its reading invalid (timeout), the other five valid",
+   "ok": true,
+   "poll_s": 0.348,
+   "stats": {
+    "requests": 7,
+    "retries": 1,
+    "timeout": 2,
+    "crc": 0,
+    "frame": 0,
+    "exception": 0
+   }
+  },
+  {
+   "test": "one corrupted response: CRC error detected, retry succeeds",
+   "ok": true,
+   "stats": {
+    "requests": 7,
+    "retries": 1,
+    "timeout": 0,
+    "crc": 1,
+    "frame": 0,
+    "exception": 0
+   }
+  },
+  {
+   "test": "persistent corruption: zone-2 readings invalid (crc)",
+   "ok": true,
+   "stats": {
+    "requests": 7,
+    "retries": 1,
+    "timeout": 0,
+    "crc": 2,
+    "frame": 0,
+    "exception": 0
+   }
+  },
+  {
+   "test": "exception response (04): invalid, no retry",
+   "ok": true,
+   "stats": {
+    "requests": 6,
+    "retries": 0,
+    "timeout": 0,
+    "crc": 0,
+    "frame": 0,
+    "exception": 1
+   }
+  },
+  {
+   "test": "CO2 fault flag (IR25): CO2 invalid, T and RH valid",
+   "ok": true
+  },
+  {
+   "test": "humidity/temperature fault flag (IR14): T and RH invalid",
+   "ok": true
+  },
+  {
+   "test": "anemometer status bit0: V invalid",
+   "ok": true
+  },
+  {
+   "test": "anemometer rejects block read over undocumented registers: falls back to single reads",
+   "ok": true
+  },
+  {
+   "test": "value outside the sensor range (75 C): flagged",
+   "ok": true
+  },
+  {
+   "test": "warm-up: NH3 flagged until 300 s, V until 10 s, T never",
+   "ok": true
+  },
+  {
+   "test": "warm-up restarts when a device answers again after a gap",
+   "ok": true
+  },
+  {
+   "test": "value unchanged for 30 min is flagged stuck (not before)",
+   "ok": true,
+   "at_29": [],
+   "at_30": [
+    "stuck"
+   ]
+  },
+  {
+   "test": "maintenance flag marks every reading invalid",
+   "ok": true
+  },
+  {
+   "test": "register-offset check finds offset -1",
+   "ok": true
+  },
+  {
+   "test": "register-offset check finds offset 0",
+   "ok": true
+  }
+ ],
+ "D": [
+  {
+   "test": "single Severe window ignored",
+   "ok": true,
+   "raw": [
+    0,
+    2,
+    0,
+    0
+   ],
+   "got": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "expected": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "test": "two Severe windows raise to Severe",
+   "ok": true,
+   "raw": [
+    0,
+    2,
+    2,
+    2
+   ],
+   "got": [
+    0,
+    0,
+    2,
+    2
+   ],
+   "expected": [
+    0,
+    0,
+    2,
+    2
+   ]
+  },
+  {
+   "test": "Moderate then Severe rises stepwise",
+   "ok": true,
+   "raw": [
+    0,
+    1,
+    2,
+    2
+   ],
+   "got": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "expected": [
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "test": "two windows below do not clear",
+   "ok": true,
+   "raw": [
+    2,
+    2,
+    0,
+    0,
+    2
+   ],
+   "got": [
+    0,
+    2,
+    2,
+    2,
+    2
+   ],
+   "expected": [
+    0,
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "test": "three windows below clear",
+   "ok": true,
+   "raw": [
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "got": [
+    0,
+    2,
+    2,
+    2,
+    0
+   ],
+   "expected": [
+    0,
+    2,
+    2,
+    2,
+    0
+   ]
+  },
+  {
+   "test": "clears to the highest of the three",
+   "ok": true,
+   "raw": [
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "got": [
+    0,
+    2,
+    2,
+    2,
+    1
+   ],
+   "expected": [
+    0,
+    2,
+    2,
+    2,
+    1
+   ]
+  },
+  {
+   "test": "alternating raw levels stay put",
+   "ok": true,
+   "raw": [
+    0,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "got": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "expected": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "test": "episode starts counted once per Severe period",
+   "ok": true,
+   "got": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "test": "house assessment: Severe zone 1 needs two windows; NH3 reported as not rated",
+   "ok": true,
+   "a1": 0,
+   "a2": 2,
+   "cause": "thermal"
+  },
+  {
+   "test": "NH3 verify note: 5 < NH3 <= 25 ppm, none outside",
+   "ok": true,
+   "got": {
+    "4.9": false,
+    "5.0": false,
+    "5.1": true,
+    "10.0": true,
+    "15.0": true,
+    "20.0": true,
+    "25.0": true,
+    "25.1": false
+   }
+  },
+  {
+   "test": "NH3 verify note carried in the assessment without changing level or tasks",
+   "ok": true,
+   "level": 1,
+   "cause": "NH3",
+   "tasks": [
+    "MVUP",
+    "LITC"
+   ]
+  }
+ ],
+ "E_summary": {
+  "computed_frame_time_s": 0.3271,
+  "computed_v14_with_7_reg_nh3_s": 0.3479,
+  "measured_median_poll_s": 0.3331,
+  "measured_max_poll_s": 0.3376,
+  "overhead_s": 0.006,
+  "polls": 20
+ },
+ "E": [
+  {
+   "test": "emulated 9600-baud poll within 15% of computed frame time",
+   "ok": true,
+   "computed_frame_time_s": 0.3271,
+   "computed_v14_with_7_reg_nh3_s": 0.3479,
+   "measured_median_poll_s": 0.3331,
+   "measured_max_poll_s": 0.3376,
+   "overhead_s": 0.006,
+   "polls": 20
+  }
+ ],
+ "total": 50,
+ "passed": 50
+}

@@ -1,0 +1,230 @@
+[
+ {
+  "id": "S02",
+  "level": "Severe",
+  "cause": "thermal",
+  "thermal_kind": "hot",
+  "notes": [],
+  "possible_cause": "SETP",
+  "possible_cause_text": "Set point or heat above the target",
+  "task_mode": "corrective",
+  "tasks": [
+   {
+    "code": "CHBH",
+    "text": "Check chick behaviour at the brooders",
+    "source": "Ross Broiler Management Handbook 2025, p. 33",
+    "basis": "E"
+   },
+   {
+    "code": "MVCK",
+    "text": "Check minimum ventilation rate",
+    "source": "Ross Broiler Management Handbook 2025, p. 30",
+    "basis": "E"
+   },
+   {
+    "code": "HTSP",
+    "text": "Lower brooding set point after checks",
+    "source": "designers' inference, no source",
+    "basis": "I"
+   }
+  ]
+ },
+ {
+  "id": "S04",
+  "level": "Moderate",
+  "cause": "thermal",
+  "thermal_kind": "heat",
+  "notes": [],
+  "possible_cause": "AIRF",
+  "possible_cause_text": "Low airflow (fans, belts or inlet)",
+  "task_mode": "preventive",
+  "tasks": [
+   {
+    "code": "FANS",
+    "text": "Raise fan stage to increase air speed",
+    "source": "Medion, closed-house equipment",
+    "basis": "E"
+   },
+   {
+    "code": "FANB",
+    "text": "Check fan belt tension and clean fans",
+    "source": "Medion, closed-house system; Medion, closed-house equipment",
+    "basis": "E"
+   },
+   {
+    "code": "INLT",
+    "text": "Set inlet opening to target air speed",
+    "source": "Medion, closed-house system",
+    "basis": "E"
+   }
+  ]
+ },
+ {
+  "id": "S05",
+  "level": "Severe",
+  "cause": "NH3",
+  "thermal_kind": null,
+  "notes": [],
+  "possible_cause": "LITQ",
+  "possible_cause_text": "Litter condition (caked or built-up)",
+  "task_mode": "corrective",
+  "tasks": [
+   {
+    "code": "MVUP",
+    "text": "Raise minimum ventilation (>=1 of 5 min)",
+    "source": "UGA Bulletin 1267 (litter)",
+    "basis": "E"
+   },
+   {
+    "code": "LITC",
+    "text": "Squeeze-test litter, check drinker leaks",
+    "source": "Ross Broiler Management Handbook 2025, p. 13",
+    "basis": "E"
+   },
+   {
+    "code": "LITR",
+    "text": "Replace wet litter with dry bedding",
+    "source": "UGA Bulletin 1267 (litter)",
+    "basis": "E"
+   }
+  ]
+ },
+ {
+  "id": "S06",
+  "level": "Moderate",
+  "cause": "thermal",
+  "thermal_kind": "heat",
+  "notes": [],
+  "possible_cause": "AIRF",
+  "possible_cause_text": "Low airflow (fans, belts or inlet)",
+  "task_mode": "preventive",
+  "tasks": [
+   {
+    "code": "FANS",
+    "text": "Raise fan stage to increase air speed",
+    "source": "Medion, closed-house equipment",
+    "basis": "E"
+   },
+   {
+    "code": "FANB",
+    "text": "Check fan belt tension and clean fans",
+    "source": "Medion, closed-house system; Medion, closed-house equipment",
+    "basis": "E"
+   },
+   {
+    "code": "INLT",
+    "text": "Set inlet opening to target air speed",
+    "source": "Medion, closed-house system",
+    "basis": "E"
+   }
+  ]
+ },
+ {
+  "id": "S07",
+  "level": "Moderate",
+  "cause": "thermal",
+  "thermal_kind": "hot",
+  "notes": [],
+  "possible_cause": "SETP",
+  "possible_cause_text": "Set point or heat above the target",
+  "task_mode": "preventive",
+  "tasks": [
+   {
+    "code": "CHBH",
+    "text": "Check chick behaviour at the brooders",
+    "source": "Ross Broiler Management Handbook 2025, p. 33",
+    "basis": "E"
+   },
+   {
+    "code": "MVCK",
+    "text": "Check minimum ventilation rate",
+    "source": "Ross Broiler Management Handbook 2025, p. 30",
+    "basis": "E"
+   }
+  ]
+ },
+ {
+  "id": "S08",
+  "level": "Severe",
+  "cause": "thermal",
+  "thermal_kind": "heat",
+  "notes": [],
+  "possible_cause": "AIRF",
+  "possible_cause_text": "Low airflow (fans, belts or inlet)",
+  "task_mode": "corrective",
+  "tasks": [
+   {
+    "code": "FANS",
+    "text": "Raise fan stage to increase air speed",
+    "source": "Medion, closed-house equipment",
+    "basis": "E"
+   },
+   {
+    "code": "PADS",
+    "text": "Run cooling pads after raising fan stage",
+    "source": "Medion, closed-house equipment; Medion, closed-house system",
+    "basis": "E"
+   },
+   {
+    "code": "FANB",
+    "text": "Check fan belt tension and clean fans",
+    "source": "Medion, closed-house system; Medion, closed-house equipment",
+    "basis": "E"
+   }
+  ]
+ },
+ {
+  "id": "S09",
+  "level": "Severe",
+  "cause": "thermal+CO2",
+  "thermal_kind": "hot",
+  "notes": [],
+  "possible_cause": "SETP",
+  "possible_cause_text": "Set point or heat above the target",
+  "task_mode": "corrective",
+  "tasks": [
+   {
+    "code": "CHBH",
+    "text": "Check chick behaviour at the brooders",
+    "source": "Ross Broiler Management Handbook 2025, p. 33",
+    "basis": "E"
+   },
+   {
+    "code": "AIRQ",
+    "text": "Measure air quality, adjust ventilation",
+    "source": "Ross Broiler Management Handbook 2025, p. 33",
+    "basis": "E"
+   },
+   {
+    "code": "MVCK",
+    "text": "Check minimum ventilation rate",
+    "source": "Ross Broiler Management Handbook 2025, p. 30",
+    "basis": "E"
+   }
+  ]
+ },
+ {
+  "id": "S11",
+  "level": "Moderate",
+  "cause": "NH3",
+  "thermal_kind": null,
+  "notes": [],
+  "possible_cause": "LITQ",
+  "possible_cause_text": "Litter condition (caked or built-up)",
+  "task_mode": "preventive",
+  "tasks": [
+   {
+    "code": "MVUP",
+    "text": "Raise minimum ventilation (>=1 of 5 min)",
+    "source": "UGA Bulletin 1267 (litter)",
+    "basis": "E"
+   },
+   {
+    "code": "LITC",
+    "text": "Squeeze-test litter, check drinker leaks",
+    "source": "Ross Broiler Management Handbook 2025, p. 13",
+    "basis": "E"
+   }
+  ]
+ }
+]

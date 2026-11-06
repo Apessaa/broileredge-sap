@@ -1,0 +1,38 @@
+{
+ "passed": 9,
+ "total": 9,
+ "checks": {
+  "three Severe episodes in zone 1, each with a local alert": true,
+  "exactly one PM notification, in zone 1, opened by the third episode start": true,
+  "the notification carries the tasks of the triggering assessment": true,
+  "the farm office completed every task (completion recorded in the PM task table)": true,
+  "report: every task completed by the farm office": true,
+  "report: house back to Normal within three windows after completion": true,
+  "report: the possible cause of the three episodes is flagged as recurring": true,
+  "every closed window reached mock SAP once, outbox drained": true,
+  "report: every window, no gap": true
+ },
+ "windows": 35,
+ "episodes": 3,
+ "notifications": 1,
+ "possible_cause": "AIRF",
+ "tasks": [
+  "FANS",
+  "FANB",
+  "INLT"
+ ],
+ "notif_seen_at": "2026-10-31T22:23:01",
+ "completed_at": "2026-10-31T22:23:06",
+ "report_task_status": {
+  "completed": 3
+ },
+ "report_recovery": {
+  "back to Normal": 3
+ },
+ "recurring": [
+  {
+   "code": "AIRF",
+   "text": "Low airflow (fans, belts or inlet)"
+  }
+ ]
+}

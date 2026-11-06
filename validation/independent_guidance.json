@@ -1,0 +1,14 @@
+{
+ "situations": 9,
+ "first_task_situations": 7,
+ "first_task_agrees_v1": 6,
+ "first_task_agrees_v2": 7,
+ "all_agree_v2": true,
+ "changed_in_v2": [
+  "G4",
+  "G5",
+  "G9"
+ ],
+ "table_matches_catalog_v2": true,
+ "rule_version": "2026-10-v2"
+}

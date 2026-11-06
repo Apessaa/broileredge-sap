@@ -1,0 +1,14 @@
+code_group,code,short_text_40,basis,long_text,rule_version
+ZBRL,FANS,Raise fan stage to increase air speed,E,"Source: Medion, All About Closed House Broiler Equipment, 2023. Basis E.",2026-10-v2
+ZBRL,PADS,Run cooling pads after raising fan stage,E,"Source: Medion, All About Closed House Broiler Equipment, 2023; Medion, Getting To Know The Closed House Cage System, 2019. Basis E.",2026-10-v2
+ZBRL,PADC,Check pad pump and water distribution,E,"Source: Aviagen, Ross Broiler Management Handbook, 2025, p. 13. Basis E.",2026-10-v2
+ZBRL,FANB,Check fan belt tension and clean fans,E,"Source: Medion, Getting To Know The Closed House Cage System, 2019; Medion, All About Closed House Broiler Equipment, 2023. Basis E.",2026-10-v2
+ZBRL,INLT,Set inlet opening to target air speed,E,"Source: Medion, Getting To Know The Closed House Cage System, 2019. Basis E.",2026-10-v2
+ZBRL,MVCK,Check minimum ventilation rate,E,"Source: Aviagen, Ross Broiler Management Handbook, 2025, p. 30. Basis E.",2026-10-v2
+ZBRL,CHBH,Check chick behaviour at the brooders,E,"Source: Aviagen, Ross Broiler Management Handbook, 2025, p. 33. Basis E.",2026-10-v2
+ZBRL,HEAT,Check that heaters/brooders are running,E,"Source: Aviagen, Ross Broiler Management Handbook, 2025, p. 13. Basis E.",2026-10-v2
+ZBRL,HTSP,Lower brooding set point after checks,I,Design inference: no cited source states this action. Basis I.,2026-10-v2
+ZBRL,MVUP,Raise minimum ventilation (>=1 of 5 min),E,"Source: Ritz, Fairchild and Lacy, Litter Quality and Broiler Performance, UGA Extension Bulletin 1267. Basis E.",2026-10-v2
+ZBRL,LITC,"Squeeze-test litter, check drinker leaks",E,"Source: Aviagen, Ross Broiler Management Handbook, 2025, p. 13. Basis E.",2026-10-v2
+ZBRL,LITR,Replace wet litter with dry bedding,E,"Source: Ritz, Fairchild and Lacy, Litter Quality and Broiler Performance, UGA Extension Bulletin 1267. Basis E.",2026-10-v2
+ZBRL,AIRQ,"Measure air quality, adjust ventilation",E,"Source: Aviagen, Ross Broiler Management Handbook, 2025, p. 33. Basis E.",2026-10-v2

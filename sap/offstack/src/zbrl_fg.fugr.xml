@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Broiler stress assessments</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBRL_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBRL_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_BRL_STRESS_SAVE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Store one stress assessment exactly once</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_ASSESS</PARAMETER>
+       <TYP>ZBRL_S_ASSESS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_STATUS</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_NOTIF</PARAMETER>
+       <TYP>QMNUM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+     </EXPORT>
+    </item>
+    <item>
+     <FUNCNAME>Z_BRL_STRESS_POST</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Update module: insert row and log</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_ROW</PARAMETER>
+       <TYP>ZBRL_STRESS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_NOTIF</PARAMETER>
+       <TYP>ZBRL_NOTIF</TYP>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+     </IMPORT>
+    </item>
+    <item>
+     <FUNCNAME>Z_BRL_STRESS_READ</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Test read-back of TST flocks</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_FLOCK_PREFIX</PARAMETER>
+       <TYP>CHAR20</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_STRESS</PARAMETER>
+       <DBSTRUCT>ZBRL_STRESS</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_NOTIF</PARAMETER>
+       <DBSTRUCT>ZBRL_NOTIF</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_TASK</PARAMETER>
+       <DBSTRUCT>QMSM</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+    </item>
+    <item>
+     <FUNCNAME>Z_BRL_TEST_RESET</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Delete rows of TST flocks</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_FLOCK_PREFIX</PARAMETER>
+       <TYP>CHAR20</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_DELETED</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,129 @@
+{
+ "records_weeks1to3": 864,
+ "targets": {
+  "ross": {
+   "thermal_MS_records": 546,
+   "thermal_MS_share": 0.6319,
+   "thermal_MS_share_ci95": [
+    0.5336,
+    0.7257
+   ],
+   "thermal_severe_records": 290,
+   "too_warm_share_of_MS": 0.9451,
+   "surveys_weeks1to3_MS": 64,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 5,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.5556,
+    "summer": 0.7083
+   }
+  },
+  "ross+1": {
+   "thermal_MS_records": 421,
+   "thermal_MS_share": 0.4873,
+   "thermal_MS_share_ci95": [
+    0.39,
+    0.5822
+   ],
+   "thermal_severe_records": 216,
+   "too_warm_share_of_MS": 0.9026,
+   "surveys_weeks1to3_MS": 58,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 1,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.3241,
+    "summer": 0.6505
+   }
+  },
+  "ross+2": {
+   "thermal_MS_records": 365,
+   "thermal_MS_share": 0.4225,
+   "thermal_MS_share_ci95": [
+    0.3275,
+    0.5197
+   ],
+   "thermal_severe_records": 125,
+   "too_warm_share_of_MS": 0.7671,
+   "surveys_weeks1to3_MS": 55,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 0,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.2315,
+    "summer": 0.6134
+   }
+  },
+  "ross+3": {
+   "thermal_MS_records": 390,
+   "thermal_MS_share": 0.4514,
+   "thermal_MS_share_ci95": [
+    0.3623,
+    0.5382
+   ],
+   "thermal_severe_records": 77,
+   "too_warm_share_of_MS": 0.5051,
+   "surveys_weeks1to3_MS": 57,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 0,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.3194,
+    "summer": 0.5833
+   }
+  },
+  "ross+4": {
+   "thermal_MS_records": 443,
+   "thermal_MS_share": 0.5127,
+   "thermal_MS_share_ci95": [
+    0.4178,
+    0.6076
+   ],
+   "thermal_severe_records": 93,
+   "too_warm_share_of_MS": 0.2144,
+   "surveys_weeks1to3_MS": 60,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 0,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.5093,
+    "summer": 0.5162
+   }
+  },
+  "cobb": {
+   "thermal_MS_records": 381,
+   "thermal_MS_share": 0.441,
+   "thermal_MS_share_ci95": [
+    0.3484,
+    0.537
+   ],
+   "thermal_severe_records": 151,
+   "too_warm_share_of_MS": 0.7034,
+   "surveys_weeks1to3_MS": 53,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 0,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.3704,
+    "summer": 0.5116
+   }
+  },
+  "local": {
+   "thermal_MS_records": 344,
+   "thermal_MS_share": 0.3981,
+   "thermal_MS_share_ci95": [
+    0.3044,
+    0.4942
+   ],
+   "thermal_severe_records": 153,
+   "too_warm_share_of_MS": 0.0785,
+   "surveys_weeks1to3_MS": 53,
+   "surveys_weeks1to3": 72,
+   "escalations_per_run": 0,
+   "thermal_MS_share_by_flock": {
+    "winter": 0.4815,
+    "summer": 0.3148
+   }
+  }
+ },
+ "cobb_targets_by_week": {
+  "1": 31.5,
+  "2": 28.5,
+  "3": 25.5
+ }
+}

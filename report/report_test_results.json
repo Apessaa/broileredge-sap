@@ -1,0 +1,348 @@
+{
+ "passed": 22,
+ "total": 22,
+ "note": "synthetic test sequences, not data",
+ "checks": [
+  {
+   "check": "data: 9 of 12 windows received, one gap of 3 windows from 06:20",
+   "passed": true,
+   "got": {
+    "received": 9,
+    "not_rated_windows": 0,
+    "expected": 12,
+    "gaps": [
+     {
+      "from": "2027-01-04T06:20:00",
+      "missing": 3
+     }
+    ],
+    "completeness": 0.75
+   }
+  },
+  {
+   "check": "data: without an interval (spot surveys) no gap check is made",
+   "passed": true
+  },
+  {
+   "check": "conditions: windows per level and worst level per zone",
+   "passed": true,
+   "got": {
+    "windows_per_level": {
+     "Normal": 2,
+     "Moderate": 2,
+     "Severe": 2
+    },
+    "share_per_level": {
+     "Normal": 0.3333,
+     "Moderate": 0.3333,
+     "Severe": 0.3333
+    },
+    "worst_level_per_zone": {
+     "1": "Normal",
+     "2": "Severe",
+     "3": "Moderate"
+    },
+    "peaks": {
+     "THI": 29.8,
+     "NH3": 21.0,
+     "CO2": 1700.0
+    },
+    "low_air_speed_windows": 2
+   }
+  },
+  {
+   "check": "conditions: peaks of THI, NH3 and CO2; windows with the low-air-speed diagnostic",
+   "passed": true,
+   "got": {
+    "windows_per_level": {
+     "Normal": 2,
+     "Moderate": 2,
+     "Severe": 2
+    },
+    "share_per_level": {
+     "Normal": 0.3333,
+     "Moderate": 0.3333,
+     "Severe": 0.3333
+    },
+    "worst_level_per_zone": {
+     "1": "Normal",
+     "2": "Severe",
+     "3": "Moderate"
+    },
+    "peaks": {
+     "THI": 29.8,
+     "NH3": 21.0,
+     "CO2": 1700.0
+    },
+    "low_air_speed_windows": 2
+   }
+  },
+  {
+   "check": "possible causes: counted over Moderate and Severe windows and Severe episode starts",
+   "passed": true,
+   "got": {
+    "moderate_or_severe_windows": {
+     "COOL": 3,
+     "WETL": 1
+    },
+    "severe_episode_starts": {
+     "COOL": 1
+    },
+    "notifications": {},
+    "recurring": []
+   }
+  },
+  {
+   "check": "recurring: SETP (3 episode starts, 2 notifications) and COOL (3 episode starts); WETL (2 starts) not",
+   "passed": true,
+   "got": [
+    "COOL",
+    "SETP"
+   ]
+  },
+  {
+   "check": "recurring: the text says the cause may be systematic",
+   "passed": true
+  },
+  {
+   "check": "notification check: FANS completed and the house back to Normal within 3 windows",
+   "passed": true,
+   "got": {
+    "task": "FANS",
+    "text": "Raise fan stage to increase air speed",
+    "status": "completed",
+    "by": "TESTUSER",
+    "recovery": "back to Normal"
+   }
+  },
+  {
+   "check": "notification check: completed after the last window -> too early to tell",
+   "passed": true,
+   "got": {
+    "task": "PADS",
+    "text": "Run cooling pads after raising fan stage",
+    "status": "completed",
+    "by": "TESTUSER",
+    "recovery": "too early to tell"
+   }
+  },
+  {
+   "check": "notification check: open task 2 h after the notification is outstanding",
+   "passed": true
+  },
+  {
+   "check": "notification check: open task 25 h after the notification is overdue (> 24 h)",
+   "passed": true,
+   "got": {
+    "completed": 2,
+    "overdue": 1
+   }
+  },
+  {
+   "check": "recovery: still Severe in the 3 windows after completion -> not yet; Moderate among them -> improved",
+   "passed": true,
+   "got": {
+    "not yet": 1,
+    "improved, not Normal": 1
+   }
+  },
+  {
+   "check": "empty period: the report says so",
+   "passed": true
+  },
+  {
+   "check": "end to end: 3 Severe episode starts open one notification with 3 PM tasks; the resend is rejected",
+   "passed": true,
+   "got": [
+    [
+     "stored",
+     "stored",
+     "stored",
+     "stored",
+     "stored",
+     "stored",
+     "stored",
+     "stored",
+     "stored",
+     "duplicate"
+    ],
+    {
+     "completed": 1,
+     "overdue": 2
+    }
+   ]
+  },
+  {
+   "check": "end to end: the completed task is reported with its user and the house back to Normal; the open ones overdue",
+   "passed": true,
+   "got": {
+    "notifications": 1,
+    "task_status": {
+     "completed": 1,
+     "overdue": 2
+    },
+    "recovery": {
+     "back to Normal": 1
+    },
+    "items": [
+     {
+      "notification": 1,
+      "ts": "2027-01-04T06:25:00",
+      "zone": 2,
+      "possible_cause": "COOL",
+      "tasks": [
+       {
+        "task": "FANS",
+        "text": "Raise fan stage to increase air speed",
+        "status": "completed",
+        "by": "TESTUSER",
+        "recovery": "back to Normal"
+       },
+       {
+        "task": "PADS",
+        "text": "Run cooling pads after raising fan stage",
+        "status": "overdue",
+        "by": null,
+        "recovery": null
+       },
+       {
+        "task": "PADC",
+        "text": "Check pad pump and water distribution",
+        "status": "overdue",
+        "by": null,
+        "recovery": null
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "check": "end to end: report data complete (9 of 9 windows) and the notification's possible cause is COOL",
+   "passed": true,
+   "got": {
+    "received": 9,
+    "not_rated_windows": 0,
+    "expected": 9,
+    "gaps": [],
+    "completeness": 1.0
+   }
+  },
+  {
+   "check": "end to end: THI peak taken from the stored payload",
+   "passed": true
+  },
+  {
+   "check": "without the idempotency key the resend is stored twice and the report counts 10 assessments for 9 windows",
+   "passed": true,
+   "got": {
+    "received": 10,
+    "not_rated_windows": 0,
+    "expected": 9,
+    "gaps": [],
+    "completeness": 1.0
+   }
+  },
+  {
+   "check": "period: conditions cover the rows after the start; the earlier trigger still gives the notification's possible cause and the recovery check",
+   "passed": true,
+   "got": {
+    "flock": "TESTFLOCK",
+    "house": 1,
+    "rule_versions": [
+     "2026-10-v2"
+    ],
+    "period": [
+     "2027-01-04T06:10:00",
+     "2027-01-04T06:20:00"
+    ],
+    "data": {
+     "received": 3,
+     "not_rated_windows": 0
+    },
+    "conditions": {
+     "windows_per_level": {
+      "Normal": 2,
+      "Moderate": 1,
+      "Severe": 0
+     },
+     "share_per_level": {
+      "Normal": 0.6667,
+      "Moderate": 0.3333,
+      "Severe": 0.0
+     },
+     "worst_level_per_zone": {
+      "1": "Normal",
+      "3": "Moderate"
+     },
+     "peaks": {},
+     "low_air_speed_windows": 0
+    },
+    "possible_causes": {
+     "moderate_or_severe_windows": {
+      "WETL": 1
+     },
+     "severe_episode_starts": {},
+     "notifications": {
+      "COOL": 1
+     },
+     "recurring": []
+    },
+    "notification_check": {
+     "notifications": 1,
+     "task_status": {
+      "completed": 1
+     },
+     "recovery": {
+      "back to Normal": 1
+     },
+     "items": [
+      {
+       "notification": "N1",
+       "ts": "2027-01-04T06:00:00",
+       "zone": 2,
+       "possible_cause": "COOL",
+       "tasks": [
+        {
+         "task": "FANS",
+         "text": "Raise fan stage to increase air speed",
+         "status": "completed",
+         "by": "TESTUSER",
+         "recovery": "back to Normal"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "check": "ABAP class constants equal the Python reference (24 h overdue, 3 windows, 2 notifications, 3 episodes)",
+   "passed": true,
+   "got": {
+    "gc_overdue_h": "24",
+    "gc_recover_win": "3",
+    "gc_recur_notif": "2",
+    "gc_recur_epis": "3"
+   }
+  },
+  {
+   "check": "ABAP possible-cause texts equal edge/tasks.py (POSSIBLE_CAUSES)",
+   "passed": true,
+   "got": {
+    "AIRF": "Low airflow (fans, belts or inlet)",
+    "HUMH": "Humid heat: pads would add moisture",
+    "COOL": "Cooling stage below the heat load",
+    "HTRC": "Heaters low or cold air reaching chicks",
+    "SETP": "Set point or heat above the target",
+    "WETL": "Wet litter, too little min. ventilation",
+    "LITQ": "Litter condition (caked or built-up)",
+    "VENT": "Ventilation below need for fresh air"
+   }
+  },
+  {
+   "check": "ABAP Unit test class covers the same cases (6 test methods)",
+   "passed": true
+  }
+ ]
+}

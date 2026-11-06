@@ -1,0 +1,10 @@
+id,situation,catalog_v1_first,catalog_v2_first,independent_source,pages,statement_paraphrased,first_task_agrees_v1,first_task_agrees_v2,change_in_v2
+G1,Heat from week 4 (Moderate or Severe),FANS,FANS,COBB; MSU,COBB p.37; MSU p.3,Evaporative cooling only after all tunnel fans run (fans before pads),yes,yes,-
+G2,Heat: cooling-pad guard,PADS only at RH <= 75% and T > 28 C after day 14,unchanged,COBB,COBB p.36-37,No evaporative cooling above 75% RH; evaporative cooling only above 28 C,yes,yes,-
+G3,Brooding too warm for T* (weeks 1-3),CHBH,CHBH,COBB,COBB p.16; p.21,Chicks spread out when too hot; use the birds' behaviour and effective temperature as the ultimate guide to the correct temperature,yes,yes,-
+G4,Brooding too cold for T* (Moderate),MVCK,CHBH,COBB,COBB p.13; p.16,Heaters at maximum output and serviced before pre-heating; chicks huddled when too cold (behaviour and heaters first),no,yes,order CHBH HEAT MVCK
+G5,Brooding too cold for T* (Severe),HEAT,HEAT,COBB,COBB p.13,Heaters at maximum output and serviced before pre-heating,yes,yes,second task CHBH before MVCK
+G6,NH3 (Moderate or Severe),MVUP,MVUP,UGA9; COBB,UGA9; COBB p.26,Ventilate before ammonia becomes a problem; when air quality deteriorates increase the run time of the minimum-ventilation fans,yes,yes,-
+G7,NH3 with wet or caked litter (second task),LITC,LITC,COBB; UGA9,COBB p.12; UGA9,Squeeze test; wet litter beneath drinkers -> check drinker pressure; with caked litter check drinker line height and pressure,yes,yes,-
+G8,CO2 (Moderate or Severe),AIRQ,AIRQ,COBB,COBB p.26; p.28,Increase the run time when air quality deteriorates; CO2 at most 3000 ppm (the Moderate band starts at 3000; the Severe band above 3500 ppm rests on the Ross handbook only),yes,yes,-
+G9,Low air speed (diagnostic),FANB INLT (after the other tasks),FANB INLT (before the pad-pump check),COBB; MSU,COBB p.28-29; MSU p.4,Inlet area matched to fan capacity; fan belts at the correct tension; poor fan maintenance may reduce air speed by 20% or more,yes,yes,FANB before PADC when air speed is low

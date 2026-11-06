@@ -1,0 +1,103 @@
+HOUSE REPORT  flock summer  house 1  rule version 2026-10-v2
+  period 2000-07-03T08:00:00 to 2000-07-31T16:00:00
+1 Data: 24 assessments
+2 Conditions: Normal 21%, Moderate 33%, Severe 46%; worst per zone 1: Severe, 2: Severe, 7: Severe; peaks THI 44.57, NH3 5.0, CO2 5538.0; low-air-speed diagnostic in 1 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 14, COOL 3, HTRC 1, AIRF 1
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 2 notification(s); tasks overdue 6
+    notification 2 at 2000-07-10T16:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      AIRQ Measure air quality, adjust ventilation: overdue
+      MVCK Check minimum ventilation rate: overdue
+    notification 5 at 2000-07-17T12:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      MVCK Check minimum ventilation rate: overdue
+      HTSP Lower brooding set point after checks: overdue
+
+HOUSE REPORT  flock summer  house 2  rule version 2026-10-v2
+  period 2000-07-03T08:00:00 to 2000-08-07T16:00:00
+1 Data: 20 assessments
+2 Conditions: Normal 10%, Moderate 30%, Severe 60%; worst per zone 1: Severe, 8: Severe; peaks THI 31.15, NH3 36.0, CO2 3708.0; low-air-speed diagnostic in 8 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 7, AIRF 7, WETL 2, LITQ 1, HTRC 1
+    RECURRING AIRF (Low airflow (fans, belts or inlet)): may be systematic - check settings, equipment or the target
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 2 notification(s); tasks overdue 6
+    notification 3 at 2000-07-10T16:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      AIRQ Measure air quality, adjust ventilation: overdue
+      MVCK Check minimum ventilation rate: overdue
+    notification 7 at 2000-07-17T16:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      MVCK Check minimum ventilation rate: overdue
+      HTSP Lower brooding set point after checks: overdue
+
+HOUSE REPORT  flock summer  house 3  rule version 2026-10-v2
+  period 2000-07-03T08:00:00 to 2000-08-07T16:00:00
+1 Data: 22 assessments
+2 Conditions: Normal 5%, Moderate 41%, Severe 55%; worst per zone 1: Severe, 2: Moderate, 6: Severe; peaks THI 34.61, NH3 23.0, CO2 3038.0; low-air-speed diagnostic in 13 window(s)
+3 Possible causes (Moderate/Severe windows): AIRF 13, SETP 6, LITQ 1, HTRC 1
+    RECURRING AIRF (Low airflow (fans, belts or inlet)): may be systematic - check settings, equipment or the target
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 2 notification(s); tasks overdue 6
+    notification 8 at 2000-07-17T16:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      MVCK Check minimum ventilation rate: overdue
+      HTSP Lower brooding set point after checks: overdue
+    notification 9 at 2000-07-31T12:00:00, zone 1, possible cause AIRF
+      FANS Raise fan stage to increase air speed: overdue
+      PADS Run cooling pads after raising fan stage: overdue
+      FANB Check fan belt tension and clean fans: overdue
+
+HOUSE REPORT  flock summer  house 4  rule version 2026-10-v2
+  period 2000-07-03T08:00:00 to 2000-08-07T16:00:00
+1 Data: 21 assessments
+2 Conditions: Normal 10%, Moderate 33%, Severe 57%; worst per zone 1: Severe, 3: Moderate, 5: Severe; peaks THI 36.52, NH3 15.0, CO2 1505.0; low-air-speed diagnostic in 9 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 10, AIRF 9
+    RECURRING AIRF (Low airflow (fans, belts or inlet)): may be systematic - check settings, equipment or the target
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 2 notification(s); tasks overdue 6
+    notification 4 at 2000-07-10T16:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      MVCK Check minimum ventilation rate: overdue
+      HTSP Lower brooding set point after checks: overdue
+    notification 6 at 2000-07-17T12:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      MVCK Check minimum ventilation rate: overdue
+      HTSP Lower brooding set point after checks: overdue
+
+HOUSE REPORT  flock winter  house 1  rule version 2026-10-v2
+  period 2000-01-03T08:00:00 to 2000-02-07T16:00:00
+1 Data: 20 assessments
+2 Conditions: Normal 40%, Moderate 45%, Severe 15%; worst per zone 1: Severe, 2: Moderate, 3: Moderate, 7: Moderate, 9: Moderate; peaks THI 29.75, NH3 5.0, CO2 1411.0; low-air-speed diagnostic in 4 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 5, AIRF 4, HTRC 3
+    RECURRING HTRC (Heaters low or cold air reaching chicks): may be systematic - check settings, equipment or the target
+4 Notification check: 0 notification(s); tasks none
+
+HOUSE REPORT  flock winter  house 2  rule version 2026-10-v2
+  period 2000-01-03T08:00:00 to 2000-02-07T16:00:00
+1 Data: 21 assessments
+2 Conditions: Normal 19%, Moderate 48%, Severe 33%; worst per zone 1: Severe, 2: Moderate, 3: Moderate, 6: Moderate, 7: Severe, 12: Moderate; peaks THI 29.1, NH3 37.0, CO2 3661.0; low-air-speed diagnostic in 3 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 7, LITQ 4, AIRF 3, COOL 2, WETL 1
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 1 notification(s); tasks overdue 3
+    notification 1 at 2000-01-17T16:00:00, zone 1, possible cause SETP
+      CHBH Check chick behaviour at the brooders: overdue
+      MVCK Check minimum ventilation rate: overdue
+      HTSP Lower brooding set point after checks: overdue
+
+HOUSE REPORT  flock winter  house 3  rule version 2026-10-v2
+  period 2000-01-03T08:00:00 to 2000-02-07T16:00:00
+1 Data: 21 assessments
+2 Conditions: Normal 48%, Moderate 38%, Severe 14%; worst per zone 1: Severe, 2: Moderate, 8: Severe; peaks THI 29.69, NH3 12.0, CO2 2108.0; low-air-speed diagnostic in 2 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 9, AIRF 2
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 0 notification(s); tasks none
+
+HOUSE REPORT  flock winter  house 4  rule version 2026-10-v2
+  period 2000-01-03T08:00:00 to 2000-02-07T16:00:00
+1 Data: 19 assessments
+2 Conditions: Normal 37%, Moderate 37%, Severe 26%; worst per zone 1: Moderate, 2: Moderate, 5: Severe, 6: Severe, 7: Severe, 12: Severe; peaks THI 28.87, NH3 26.0, CO2 2446.0; low-air-speed diagnostic in 3 window(s)
+3 Possible causes (Moderate/Severe windows): SETP 6, AIRF 3, LITQ 2, WETL 1
+    RECURRING SETP (Set point or heat above the target): may be systematic - check settings, equipment or the target
+4 Notification check: 0 notification(s); tasks none
+

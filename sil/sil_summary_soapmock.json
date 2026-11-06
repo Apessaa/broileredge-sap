@@ -1,0 +1,64 @@
+{
+ "oracle": {
+  "windows": 141,
+  "notifications": 5,
+  "severe_windows": 52,
+  "windows_with_tasks": 108,
+  "notification_tasks": 15,
+  "notification_pcauses": {
+   "SETP": 5
+  }
+ },
+ "backend": "soap-mock",
+ "idem": {
+  "runs": 3,
+  "assessments_total": 423,
+  "missing_total": 0,
+  "duplicate_rows_total": 0,
+  "duplicate_rows_range": [
+   0,
+   0
+  ],
+  "level_mismatch_total": 0,
+  "notifications_expected_total": 15,
+  "notifications_created_total": 15,
+  "surplus_notifications_range": [
+   0,
+   0
+  ],
+  "local_alerts_per_run": [
+   52,
+   52
+  ],
+  "request_faults_total": 164,
+  "injected_503": 88,
+  "injected_lost_ack": 51,
+  "injected_slow": 25,
+  "edge_kills": 12,
+  "mw_kills": 14,
+  "outage_s_total": 23.7,
+  "sap_duplicate_rejected": 76,
+  "max_backlog_range": [
+   30,
+   62
+  ],
+  "sap_unavailable_total": 0,
+  "task_mismatch_total": 0,
+  "rows_with_tasks_total": 324,
+  "notification_trigger_mismatch_total": 0,
+  "notification_task_mismatch_total": 0,
+  "notification_tasks_total": 45,
+  "notification_tasks_expected_total": 45,
+  "pcause_mismatch_total": 0,
+  "reports_total": 24,
+  "report_notifications_total": 15,
+  "report_open_tasks_total": 45,
+  "report_window_mismatch_total": 0,
+  "report_pcause_mismatch_total": 0,
+  "report_recurring": [
+   "AIRF",
+   "HTRC",
+   "SETP"
+  ]
+ }
+}

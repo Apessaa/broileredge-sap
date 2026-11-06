@@ -1,0 +1,7 @@
+{
+ "openalex": {"date": "2026-10-26", "query": "broiler or poultry with ERP", "records": 22},
+ "scopus_erp": {"date": "2026-10-28", "query": "TITLE-ABS-KEY((broiler OR poultry OR chicken) AND (ERP OR \"enterprise resource planning\" OR SAP))", "records": 56, "poultry_erp_works": 6},
+ "scopus_iot": {"date": "2026-10-28", "query": "TITLE-ABS-KEY((broiler OR poultry) AND (IoT OR \"internet of things\") AND (recommendation* OR \"decision support\")) AND PUBYEAR > 2018", "records_found": 1648, "records_exported": 1609},
+ "sciencedirect": {"date": "2026-10-28", "query": "(broiler OR poultry) AND (ERP OR \"enterprise resource planning\" OR (IoT AND recommendation))", "scope": "full text, 2019-2027", "records": 645, "poultry_erp_in_tak": 0},
+ "garuda": {"date": "2026-10-28", "query": "ERP peternakan ayam", "records": 1045, "screened": "first page (10)", "relevant": 0}
+}

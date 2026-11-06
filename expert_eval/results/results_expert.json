@@ -1,0 +1,1417 @@
+{
+ "n_experts": 3,
+ "attention_check": {
+  "passed (1-2)": 0,
+  "neutral (3)": 0,
+  "failed (4-5)": 3,
+  "blank or TD": 0
+ },
+ "items": {
+  "R1": {
+   "number": 1,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 1,
+   "all": {
+    "n": 2,
+    "median": 5.0,
+    "q1": 5.0,
+    "q3": 5.0,
+    "iqr": 0.0,
+    "share_4_5": 1.0,
+    "aiken_v": 1.0,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "too few raters"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "R2": {
+   "number": 2,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 1,
+   "all": {
+    "n": 2,
+    "median": 5.0,
+    "q1": 5.0,
+    "q3": 5.0,
+    "iqr": 0.0,
+    "share_4_5": 1.0,
+    "aiken_v": 1.0,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "too few raters"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "R3": {
+   "number": 3,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 2,
+   "all": {
+    "n": 1,
+    "median": 5,
+    "q1": 5,
+    "q3": 5,
+    "iqr": 0,
+    "share_4_5": 1.0,
+    "aiken_v": 1.0,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.024999999999999967,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "too few raters"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "R4": {
+   "number": 4,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 1,
+   "all": {
+    "n": 2,
+    "median": 4.5,
+    "q1": 4.25,
+    "q3": 4.75,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.875,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "too few raters"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "R5": {
+   "number": 5,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 5,
+    "q1": 4.5,
+    "q3": 5.0,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.9166666666666666,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "R6": {
+   "number": 6,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 4,
+    "q1": 4.0,
+    "q3": 4.5,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.8333333333333334,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "R7": {
+   "number": 7,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 4,
+    "q1": 3.5,
+    "q3": 4.5,
+    "iqr": 1.0,
+    "share_4_5": 0.6666666666666666,
+    "aiken_v": 0.75,
+    "a_wg": null,
+    "i_cvi": 0.6666666666666666,
+    "i_cvi_ci95": [
+     0.09429932405024594,
+     0.9915962413403874
+    ],
+    "kappa_star": 0.4666666666666666,
+    "decision": "review"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "T1": {
+   "number": 8,
+   "block": "A2",
+   "domains": [
+    "a",
+    "d"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 3,
+    "q1": 3.0,
+    "q3": 3.5,
+    "iqr": 0.5,
+    "share_4_5": 0.3333333333333333,
+    "aiken_v": 0.5833333333333334,
+    "a_wg": null,
+    "i_cvi": 0.3333333333333333,
+    "i_cvi_ci95": [
+     0.00840375865961257,
+     0.9057006759497539
+    ],
+    "kappa_star": -0.0666666666666667,
+    "decision": "review"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "T2": {
+   "number": 9,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 5,
+    "q1": 4.5,
+    "q3": 5.0,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.9166666666666666,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "T3": {
+   "number": 10,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 5,
+    "q1": 4.5,
+    "q3": 5.0,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.9166666666666666,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "T4": {
+   "number": 11,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 5,
+    "q1": 5.0,
+    "q3": 5.0,
+    "iqr": 0.0,
+    "share_4_5": 1.0,
+    "aiken_v": 1.0,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "T5": {
+   "number": 12,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "negative": true,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 1,
+    "q1": 1.0,
+    "q3": 1.0,
+    "iqr": 0.0,
+    "share_4_5": 0.0,
+    "aiken_v": 0.0,
+    "a_wg": null,
+    "decision": null
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": null
+   }
+  },
+  "S1": {
+   "number": 14,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 1,
+    "q1": 1.0,
+    "q3": 1.5,
+    "iqr": 0.5,
+    "share_4_5": 0.0,
+    "aiken_v": 0.08333333333333333,
+    "a_wg": null,
+    "i_cvi": 0.0,
+    "i_cvi_ci95": [
+     0.0,
+     0.7075982261787135
+    ],
+    "kappa_star": -0.14285714285714285,
+    "decision": "review"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "S2": {
+   "number": 15,
+   "block": "A2",
+   "domains": [
+    "c"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 3,
+    "q1": 2.5,
+    "q3": 4.0,
+    "iqr": 1.5,
+    "share_4_5": 0.3333333333333333,
+    "aiken_v": 0.5833333333333334,
+    "a_wg": null,
+    "i_cvi": 0.3333333333333333,
+    "i_cvi_ci95": [
+     0.00840375865961257,
+     0.9057006759497539
+    ],
+    "kappa_star": -0.0666666666666667,
+    "decision": "review"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "S3": {
+   "number": 16,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 3,
+    "q1": 3.0,
+    "q3": 4.0,
+    "iqr": 1.0,
+    "share_4_5": 0.3333333333333333,
+    "aiken_v": 0.6666666666666666,
+    "a_wg": null,
+    "i_cvi": 0.3333333333333333,
+    "i_cvi_ci95": [
+     0.00840375865961257,
+     0.9057006759497539
+    ],
+    "kappa_star": -0.0666666666666667,
+    "decision": "review"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "S4": {
+   "number": 17,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 3,
+    "q1": 2.5,
+    "q3": 3.0,
+    "iqr": 0.5,
+    "share_4_5": 0.0,
+    "aiken_v": 0.4166666666666667,
+    "a_wg": null,
+    "i_cvi": 0.0,
+    "i_cvi_ci95": [
+     0.0,
+     0.7075982261787135
+    ],
+    "kappa_star": -0.14285714285714285,
+    "decision": "review"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "S5": {
+   "number": 18,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "negative": true,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 5,
+    "q1": 3.5,
+    "q3": 5.0,
+    "iqr": 1.5,
+    "share_4_5": 0.6666666666666666,
+    "aiken_v": 0.75,
+    "a_wg": null,
+    "decision": null
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": null
+   }
+  },
+  "G1": {
+   "number": 19,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 4,
+    "q1": 4.0,
+    "q3": 4.5,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.8333333333333334,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  },
+  "G2": {
+   "number": 20,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "negative": false,
+   "td": 0,
+   "all": {
+    "n": 3,
+    "median": 5,
+    "q1": 4.5,
+    "q3": 5.0,
+    "iqr": 0.5,
+    "share_4_5": 1.0,
+    "aiken_v": 0.9166666666666666,
+    "a_wg": null,
+    "i_cvi": 1.0,
+    "i_cvi_ci95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "kappa_star": 1.0,
+    "decision": "accept"
+   },
+   "passed_check": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "i_cvi": null,
+    "decision": "too few raters"
+   }
+  }
+ },
+ "s_cvi_ave_rules": 0.9523809523809523,
+ "cases": [
+  {
+   "case": "C1",
+   "scenario": "S01",
+   "level": "Normal",
+   "normal": true,
+   "possible_cause": null,
+   "tasks": [],
+   "rule_cause": "none",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 2.5,
+      "q3": 4.5,
+      "iqr": 2.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.5833333333333334,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C2",
+   "scenario": "S02",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "SETP",
+   "tasks": [
+    "CHBH",
+    "MVCK",
+    "HTSP"
+   ],
+   "rule_cause": "thermal",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 3.5,
+      "q3": 4.5,
+      "iqr": 1.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.75,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 4.5,
+      "q3": 5.0,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.9166666666666666,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 4.5,
+      "q3": 5.0,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.9166666666666666,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C3",
+   "scenario": "S04",
+   "level": "Moderate",
+   "normal": false,
+   "possible_cause": "AIRF",
+   "tasks": [
+    "FANS",
+    "FANB",
+    "INLT"
+   ],
+   "rule_cause": "thermal",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 3.5,
+      "q3": 4.5,
+      "iqr": 1.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.75,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C4",
+   "scenario": "S05",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "LITQ",
+   "tasks": [
+    "MVUP",
+    "LITC",
+    "LITR"
+   ],
+   "rule_cause": "NH3",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 3.0,
+      "q3": 4.0,
+      "iqr": 1.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.5833333333333334,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 4.5,
+      "q3": 5.0,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.9166666666666666,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C5",
+   "scenario": "S07",
+   "level": "Moderate",
+   "normal": false,
+   "possible_cause": "SETP",
+   "tasks": [
+    "CHBH",
+    "MVCK"
+   ],
+   "rule_cause": "thermal",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 5.0,
+      "q3": 5.0,
+      "iqr": 0.0,
+      "share_4_5": 1.0,
+      "aiken_v": 1.0,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.0,
+      "iqr": 0.0,
+      "share_4_5": 1.0,
+      "aiken_v": 0.75,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C6",
+   "scenario": "S08",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "AIRF",
+   "tasks": [
+    "FANS",
+    "PADS",
+    "FANB"
+   ],
+   "rule_cause": "thermal",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 3,
+      "q1": 3.0,
+      "q3": 3.5,
+      "iqr": 0.5,
+      "share_4_5": 0.3333333333333333,
+      "aiken_v": 0.5833333333333334,
+      "a_wg": null,
+      "i_cvi": 0.3333333333333333,
+      "i_cvi_ci95": [
+       0.00840375865961257,
+       0.9057006759497539
+      ],
+      "kappa_star": -0.0666666666666667,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 3.5,
+      "q3": 4.5,
+      "iqr": 1.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.75,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C7",
+   "scenario": "S09",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "SETP",
+   "tasks": [
+    "CHBH",
+    "AIRQ",
+    "MVCK"
+   ],
+   "rule_cause": "thermal+CO2",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 4.5,
+      "q3": 5.0,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.9166666666666666,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 4.5,
+      "q3": 5.0,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.9166666666666666,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C8",
+   "scenario": "S10",
+   "level": "Normal",
+   "normal": true,
+   "possible_cause": null,
+   "tasks": [],
+   "rule_cause": "none",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 3.0,
+      "q3": 5.0,
+      "iqr": 2.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.6666666666666666,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  },
+  {
+   "case": "C9",
+   "scenario": "S11",
+   "level": "Moderate",
+   "normal": false,
+   "possible_cause": "LITQ",
+   "tasks": [
+    "MVUP",
+    "LITC"
+   ],
+   "rule_cause": "NH3",
+   "ratings": {
+    "level": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 4.0,
+      "q3": 4.5,
+      "iqr": 0.5,
+      "share_4_5": 1.0,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 1.0,
+      "i_cvi_ci95": [
+       0.2924017738212864,
+       1.0
+      ],
+      "kappa_star": 1.0,
+      "decision": "accept"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "cause": {
+     "all": {
+      "n": 3,
+      "median": 4,
+      "q1": 3.5,
+      "q3": 4.5,
+      "iqr": 1.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.75,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    },
+    "tasks": {
+     "all": {
+      "n": 3,
+      "median": 5,
+      "q1": 4.0,
+      "q3": 5.0,
+      "iqr": 1.0,
+      "share_4_5": 0.6666666666666666,
+      "aiken_v": 0.8333333333333334,
+      "a_wg": null,
+      "i_cvi": 0.6666666666666666,
+      "i_cvi_ci95": [
+       0.09429932405024594,
+       0.9915962413403874
+      ],
+      "kappa_star": 0.4666666666666666,
+      "decision": "review"
+     },
+     "passed_check": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "i_cvi": null,
+      "decision": "too few raters"
+     }
+    }
+   }
+  }
+ ],
+ "s_cvi_ave_cases_level": 0.7407407407407407,
+ "s_cvi_ave_cases_cause": 0.9047619047619048,
+ "s_cvi_ave_cases_tasks": 0.9523809523809523
+}

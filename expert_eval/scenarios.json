@@ -1,0 +1,122 @@
+[
+ {
+  "id": "S01",
+  "week": 4,
+  "weight_g": 1838,
+  "T_C": 27.4,
+  "RH_pct": 54.3,
+  "air_speed_ms": 0.79,
+  "CO2_ppm": 613,
+  "NH3_ppm": 0.0
+ },
+ {
+  "id": "S02",
+  "week": 3,
+  "weight_g": 1005,
+  "T_C": 31.2,
+  "RH_pct": 55.1,
+  "air_speed_ms": 0.69,
+  "CO2_ppm": 862,
+  "NH3_ppm": 4.0
+ },
+ {
+  "id": "S03",
+  "week": 1,
+  "weight_g": 177,
+  "T_C": 30.9,
+  "RH_pct": 30.9,
+  "air_speed_ms": 1.1,
+  "CO2_ppm": 499,
+  "NH3_ppm": 0.0
+ },
+ {
+  "id": "S04",
+  "week": 5,
+  "weight_g": 2694,
+  "T_C": 29.9,
+  "RH_pct": 68.2,
+  "air_speed_ms": 1.56,
+  "CO2_ppm": 734,
+  "NH3_ppm": 2.0
+ },
+ {
+  "id": "S05",
+  "week": 1,
+  "weight_g": 177,
+  "T_C": 27.8,
+  "RH_pct": 57.9,
+  "air_speed_ms": 0.45,
+  "CO2_ppm": 1084,
+  "NH3_ppm": 30.0
+ },
+ {
+  "id": "S06",
+  "week": 5,
+  "weight_g": 2694,
+  "T_C": 28.6,
+  "RH_pct": 68.9,
+  "air_speed_ms": 1.1,
+  "CO2_ppm": 630,
+  "NH3_ppm": 1.0
+ },
+ {
+  "id": "S07",
+  "week": 2,
+  "weight_g": 513,
+  "T_C": 28.9,
+  "RH_pct": 58.9,
+  "air_speed_ms": 0.08,
+  "CO2_ppm": 878,
+  "NH3_ppm": 0.0
+ },
+ {
+  "id": "S08",
+  "week": 5,
+  "weight_g": 2667,
+  "T_C": 33.3,
+  "RH_pct": 51.2,
+  "air_speed_ms": 1.53,
+  "CO2_ppm": 779,
+  "NH3_ppm": 0.0
+ },
+ {
+  "id": "S09",
+  "week": 2,
+  "weight_g": 546,
+  "T_C": 28.9,
+  "RH_pct": 66.3,
+  "air_speed_ms": 0.04,
+  "CO2_ppm": 5680,
+  "NH3_ppm": 0.0
+ },
+ {
+  "id": "S10",
+  "week": 2,
+  "weight_g": 532,
+  "T_C": 30.2,
+  "RH_pct": 45.3,
+  "air_speed_ms": 0.0,
+  "CO2_ppm": 565,
+  "NH3_ppm": 0.0
+ },
+ {
+  "id": "S11",
+  "week": 5,
+  "weight_g": 2711,
+  "T_C": 24.4,
+  "RH_pct": 69.9,
+  "air_speed_ms": 0.48,
+  "CO2_ppm": 1170,
+  "NH3_ppm": 17.0
+ },
+ {
+  "id": "S12",
+  "week": 4,
+  "weight_g": 1838,
+  "T_C": 25.6,
+  "RH_pct": 61.8,
+  "air_speed_ms": 0.51,
+  "CO2_ppm": 665,
+  "NH3_ppm": 0.0
+ }
+]

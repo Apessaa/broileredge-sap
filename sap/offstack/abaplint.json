@@ -1,0 +1,22 @@
+{
+  "global": {
+    "files": "/src/**/*.*",
+    "exclude": [],
+    "noIssues": []
+  },
+  "dependencies": [],
+  "syntax": {
+    "version": "v702",
+    "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_|LTCL_)"
+  },
+  "rules": {
+    "parser_error": true,
+    "check_syntax": true,
+    "unknown_types": true,
+    "check_include": true,
+    "unused_variables": true,
+    "unused_types": true,
+    "keyword_case": false,
+    "line_length": false
+  }
+}

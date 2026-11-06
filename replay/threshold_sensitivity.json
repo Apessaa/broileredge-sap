@@ -1,0 +1,36 @@
+{
+ "records": 1692,
+ "bands": {
+  "design": [
+   3000,
+   3500
+  ],
+  "alternative": [
+   2500,
+   3000
+  ]
+ },
+ "by_bands": {
+  "design": {
+   "co2_M": 8,
+   "co2_S": 28,
+   "MS": 940,
+   "S": 346,
+   "escalations_per_run": 5
+  },
+  "alternative": {
+   "co2_M": 19,
+   "co2_S": 36,
+   "MS": 941,
+   "S": 346,
+   "escalations_per_run": 5
+  }
+ },
+ "co2_level_changed": 27,
+ "P_changed": 1,
+ "P_changed_share": 0.0006,
+ "new_MS": 1,
+ "new_S": 0,
+ "co2_max_ppm": 6437.0,
+ "records_co2_gt_2500": 55
+}

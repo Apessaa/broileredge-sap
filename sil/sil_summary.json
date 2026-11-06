@@ -1,0 +1,116 @@
+{
+ "oracle": {
+  "windows": 141,
+  "notifications": 5,
+  "severe_windows": 52,
+  "windows_with_tasks": 108,
+  "notification_tasks": 15,
+  "notification_pcauses": {
+   "SETP": 5
+  }
+ },
+ "backend": "mock",
+ "idem": {
+  "runs": 5,
+  "assessments_total": 705,
+  "missing_total": 0,
+  "duplicate_rows_total": 0,
+  "duplicate_rows_range": [
+   0,
+   0
+  ],
+  "level_mismatch_total": 0,
+  "notifications_expected_total": 25,
+  "notifications_created_total": 25,
+  "surplus_notifications_range": [
+   0,
+   0
+  ],
+  "local_alerts_per_run": [
+   52,
+   52
+  ],
+  "request_faults_total": 280,
+  "injected_503": 148,
+  "injected_lost_ack": 89,
+  "injected_slow": 43,
+  "edge_kills": 23,
+  "mw_kills": 20,
+  "outage_s_total": 31.8,
+  "sap_duplicate_rejected": 132,
+  "max_backlog_range": [
+   28,
+   60
+  ],
+  "sap_unavailable_total": 0,
+  "task_mismatch_total": 0,
+  "rows_with_tasks_total": 540,
+  "notification_trigger_mismatch_total": 0,
+  "notification_task_mismatch_total": 0,
+  "notification_tasks_total": 75,
+  "notification_tasks_expected_total": 75,
+  "pcause_mismatch_total": 0,
+  "reports_total": 40,
+  "report_notifications_total": 25,
+  "report_open_tasks_total": 75,
+  "report_window_mismatch_total": 0,
+  "report_pcause_mismatch_total": 0,
+  "report_recurring": [
+   "AIRF",
+   "HTRC",
+   "SETP"
+  ]
+ },
+ "naive": {
+  "runs": 5,
+  "assessments_total": 705,
+  "missing_total": 0,
+  "duplicate_rows_total": 138,
+  "duplicate_rows_range": [
+   22,
+   31
+  ],
+  "level_mismatch_total": 0,
+  "notifications_expected_total": 25,
+  "notifications_created_total": 46,
+  "surplus_notifications_range": [
+   3,
+   6
+  ],
+  "local_alerts_per_run": [
+   52,
+   52
+  ],
+  "request_faults_total": 286,
+  "injected_503": 148,
+  "injected_lost_ack": 95,
+  "injected_slow": 43,
+  "edge_kills": 23,
+  "mw_kills": 20,
+  "outage_s_total": 31.8,
+  "sap_duplicate_rejected": 0,
+  "max_backlog_range": [
+   28,
+   60
+  ],
+  "sap_unavailable_total": 0,
+  "task_mismatch_total": 0,
+  "rows_with_tasks_total": 650,
+  "notification_trigger_mismatch_total": 29,
+  "notification_task_mismatch_total": 0,
+  "notification_tasks_total": 138,
+  "notification_tasks_expected_total": 75,
+  "pcause_mismatch_total": 0,
+  "reports_total": 40,
+  "report_notifications_total": 46,
+  "report_open_tasks_total": 138,
+  "report_window_mismatch_total": 39,
+  "report_pcause_mismatch_total": 21,
+  "report_recurring": [
+   "AIRF",
+   "HTRC",
+   "SETP",
+   "WETL"
+  ]
+ }
+}

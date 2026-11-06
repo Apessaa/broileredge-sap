@@ -1,0 +1,229 @@
+{
+ "rule_version": "2026-10-v2",
+ "records": 1692,
+ "surveys": 141,
+ "records_MS": 940,
+ "records_MS_with_task": 940,
+ "records_N_with_task": 0,
+ "tasks_per_MS_record": {
+  "1": 27,
+  "2": 277,
+  "3": 636
+ },
+ "mean_tasks_per_MS_record": 2.65,
+ "task_instances": 2489,
+ "task_instances_basis_E": 2260,
+ "first_task_counts": {
+  "CHBH": 530,
+  "FANS": 299,
+  "MVUP": 101,
+  "HEAT": 10
+ },
+ "first_task_pct": {
+  "CHBH": 56.4,
+  "FANS": 31.8,
+  "MVUP": 10.7,
+  "HEAT": 1.1
+ },
+ "task_counts": {
+  "CHBH": 546,
+  "MVCK": 533,
+  "FANS": 300,
+  "FANB": 256,
+  "INLT": 232,
+  "HTSP": 229,
+  "MVUP": 161,
+  "LITC": 116,
+  "AIRQ": 36,
+  "HEAT": 30,
+  "PADS": 25,
+  "LITR": 24,
+  "PADC": 1
+ },
+ "catalog_codes_used": [
+  "AIRQ",
+  "CHBH",
+  "FANB",
+  "FANS",
+  "HEAT",
+  "HTSP",
+  "INLT",
+  "LITC",
+  "LITR",
+  "MVCK",
+  "MVUP",
+  "PADC",
+  "PADS"
+ ],
+ "possible_cause_counts": {
+  "SETP": 510,
+  "AIRF": 271,
+  "LITQ": 80,
+  "HTRC": 30,
+  "COOL": 26,
+  "WETL": 21,
+  "HUMH": 2
+ },
+ "possible_cause_pct": {
+  "SETP": 54.3,
+  "AIRF": 28.8,
+  "LITQ": 8.5,
+  "HTRC": 3.2,
+  "COOL": 2.8,
+  "WETL": 2.2,
+  "HUMH": 0.2
+ },
+ "records_MS_without_possible_cause": 0,
+ "possible_cause_first_task": {
+  "SETP>CHBH": 510,
+  "AIRF>FANS": 271,
+  "LITQ>MVUP": 80,
+  "COOL>FANS": 26,
+  "WETL>MVUP": 21,
+  "HTRC>CHBH": 20,
+  "HTRC>HEAT": 10,
+  "HUMH>FANS": 2
+ },
+ "possible_cause_by_level": {
+  "SETP@2": 280,
+  "AIRF@1": 247,
+  "SETP@1": 230,
+  "LITQ@1": 53,
+  "LITQ@2": 27,
+  "COOL@1": 25,
+  "AIRF@2": 24,
+  "HTRC@1": 20,
+  "WETL@1": 17,
+  "HTRC@2": 10,
+  "WETL@2": 4,
+  "HUMH@1": 2,
+  "COOL@2": 1
+ },
+ "task_instances_basis_E_pct": 90.8,
+ "first_task_pct_weeks1to3": {
+  "CHBH": 86.3,
+  "MVUP": 12.1,
+  "HEAT": 1.6
+ },
+ "records_MS_weeks1to3": 614,
+ "first_task_counts_weeks1to3": {
+  "CHBH": 530,
+  "MVUP": 74,
+  "HEAT": 10
+ },
+ "basis_E_pct_weeks1to3": 85.6,
+ "brooding_hot_pct_weeks1to3": 94.4,
+ "first_task_pct_weeks4to6": {
+  "FANS": 91.7,
+  "MVUP": 8.3
+ },
+ "records_MS_weeks4to6": 326,
+ "first_task_counts_weeks4to6": {
+  "FANS": 299,
+  "MVUP": 27
+ },
+ "basis_E_pct_weeks4to6": 100.0,
+ "brooding_hot_pct_weeks4to6": null,
+ "first_task_pct_winter": {
+  "CHBH": 70.9,
+  "MVUP": 17.8,
+  "FANS": 9.1,
+  "HEAT": 2.2
+ },
+ "records_MS_winter": 320,
+ "first_task_counts_winter": {
+  "CHBH": 227,
+  "MVUP": 57,
+  "FANS": 29,
+  "HEAT": 7
+ },
+ "basis_E_pct_winter": 96.9,
+ "brooding_hot_pct_winter": 89.3,
+ "first_task_pct_summer": {
+  "CHBH": 48.9,
+  "FANS": 43.5,
+  "MVUP": 7.1,
+  "HEAT": 0.5
+ },
+ "records_MS_summer": 620,
+ "first_task_counts_summer": {
+  "CHBH": 303,
+  "FANS": 270,
+  "MVUP": 44,
+  "HEAT": 3
+ },
+ "basis_E_pct_summer": 88.1,
+ "brooding_hot_pct_summer": 98.4,
+ "brooding_thermal_cause_records": 540,
+ "brooding_kind_counts": {
+  "cold": 30,
+  "hot": 510
+ },
+ "severe_heat_records": 25,
+ "severe_heat_pads_given": 25,
+ "severe_heat_pads_withheld": 0,
+ "pads_withheld_reasons": {},
+ "severe_heat_RH_max": 71.1,
+ "diagnostic_task_records": 256,
+ "surveys_MS": 108,
+ "survey_first_task_counts": {
+  "CHBH": 53,
+  "FANS": 38,
+  "MVUP": 12,
+  "HEAT": 5
+ },
+ "survey_task_lists": {
+  "FANS|FANB|INLT": 26,
+  "CHBH|MVCK|HTSP": 25,
+  "CHBH|MVCK": 19,
+  "FANS|PADS|FANB": 9,
+  "MVUP|LITC": 6,
+  "HEAT|CHBH|MVCK": 5,
+  "MVUP|LITC|LITR": 4,
+  "CHBH|MVUP|MVCK": 4,
+  "FANS": 3,
+  "CHBH|AIRQ|MVCK": 3,
+  "MVUP|CHBH|LITC": 1,
+  "CHBH|MVUP|AIRQ": 1,
+  "CHBH|HEAT|MVCK": 1,
+  "MVUP|FANS|LITC": 1
+ },
+ "survey_possible_cause_counts": {
+  "SETP": 52,
+  "AIRF": 35,
+  "LITQ": 8,
+  "HTRC": 6,
+  "WETL": 4,
+  "COOL": 3
+ },
+ "ci": {
+  "brooding_thermal_hot_share": {
+   "value": 0.9444,
+   "ci95": [
+    0.8807,
+    0.9913
+   ]
+  },
+  "severe_heat_pads_withheld_share": {
+   "value": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "MS_first_task_CHBH_share": {
+   "value": 0.5638,
+   "ci95": [
+    0.4618,
+    0.6608
+   ]
+  },
+  "MS_first_task_FANS_share": {
+   "value": 0.3181,
+   "ci95": [
+    0.2276,
+    0.4121
+   ]
+  }
+ }
+}

@@ -1,0 +1,15 @@
+
+> zbrl-offstack-abap-check@1.0.0 lint
+> abaplint abaplint.json
+
+abaplint 2.120.89
+Using config: abaplint.json
+ABAP release: v702 (SAP_BASIS 702, kernel 702, on-premise 702, cloud n/a, CE n/a)
+ABAP language version: Normal
+
+
+
+
+
+
+abaplint: 0 issue(s) found, 17 file(s) analyzed

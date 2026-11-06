@@ -1,0 +1,89 @@
+{
+ "eur_per_usd": 0.8982,
+ "lines": [
+  {
+   "item": "Edge computer",
+   "model": "Raspberry Pi 5 4GB",
+   "qty": 1,
+   "unit_usd": 110.0,
+   "total_usd": 110.0
+  },
+  {
+   "item": "Power supply",
+   "model": "Official Raspberry Pi 27W USB-C",
+   "qty": 1,
+   "unit_usd": 14.04,
+   "total_usd": 14.04
+  },
+  {
+   "item": "Case",
+   "model": "Official Raspberry Pi 5 case + fan",
+   "qty": 1,
+   "unit_usd": 12.0,
+   "total_usd": 12.0
+  },
+  {
+   "item": "Storage",
+   "model": "Official Raspberry Pi A2 microSD 64GB",
+   "qty": 1,
+   "unit_usd": 20.85,
+   "total_usd": 20.85
+  },
+  {
+   "item": "UPS",
+   "model": "Waveshare UPS HAT (E)",
+   "qty": 1,
+   "unit_usd": 32.99,
+   "total_usd": 32.99
+  },
+  {
+   "item": "UPS batteries",
+   "model": "Samsung 50E 21700",
+   "qty": 4,
+   "unit_usd": 6.99,
+   "total_usd": 27.96
+  },
+  {
+   "item": "RS-485 adapter",
+   "model": "Waveshare Industrial USB to RS485 (SKU 17286)",
+   "qty": 1,
+   "unit_usd": 10.99,
+   "total_usd": 10.99
+  },
+  {
+   "item": "NH3 sensor",
+   "model": "Seeed S-NH3-01 (SKU 101990862)",
+   "qty": 2,
+   "unit_usd": 169.0,
+   "total_usd": 338.0
+  },
+  {
+   "item": "Anemometer",
+   "model": "Delta OHM HD53LS.S (RS485 Modbus RTU)",
+   "qty": 1,
+   "unit_usd": 1175.68,
+   "total_usd": 1175.68
+  },
+  {
+   "item": "RS-485 cable",
+   "model": "Belden 3105A (1 pair 22 AWG shielded)",
+   "qty": 130,
+   "unit_usd": 10.38,
+   "total_usd": 1349.4
+  }
+ ],
+ "total_usd_priced_items": 3091.91,
+ "total_usd_rounded_100": 3100,
+ "largest_items": [
+  "RS-485 cable",
+  "Anemometer"
+ ],
+ "not_priced": [
+  {
+   "item": "Climate transmitter",
+   "model": "Sentera ODMHM-R (T RH CO2)",
+   "qty": 3,
+   "note": "Price on request; listed under 'End of life approaching'"
+  }
+ ]
+}

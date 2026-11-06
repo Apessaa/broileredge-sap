@@ -1,0 +1,344 @@
+{
+ "passed": 40,
+ "total": 40,
+ "rule_version": "2026-10-v2",
+ "checks": [
+  {
+   "check": "catalog: codes <= 4 chars, texts <= 40 chars, every mapped code defined and every code mapped",
+   "passed": true,
+   "problems": []
+  },
+  {
+   "check": "rule version fits SAP field RULE_VER (CHAR 12)",
+   "passed": true
+  },
+  {
+   "check": "only HTSP is an inference (basis I)",
+   "passed": true
+  },
+  {
+   "check": "sil/tasks.py is identical to edge/tasks.py",
+   "passed": true
+  },
+  {
+   "check": "mapping: heat Severe, RH 60%: fans, then pads, then pad check",
+   "passed": true,
+   "got": [
+    "FANS",
+    "PADS",
+    "PADC"
+   ],
+   "expected": [
+    "FANS",
+    "PADS",
+    "PADC"
+   ]
+  },
+  {
+   "check": "mapping: heat Severe, RH 80%: pads withheld",
+   "passed": true,
+   "got": [
+    "FANS"
+   ],
+   "expected": [
+    "FANS"
+   ]
+  },
+  {
+   "check": "mapping: heat Moderate + low air speed: fans, then fan belts and the inlet opening",
+   "passed": true,
+   "got": [
+    "FANS",
+    "FANB",
+    "INLT"
+   ],
+   "expected": [
+    "FANS",
+    "FANB",
+    "INLT"
+   ]
+  },
+  {
+   "check": "mapping: brooding cold Severe: heaters first, then chick behaviour (v2)",
+   "passed": true,
+   "got": [
+    "HEAT",
+    "CHBH",
+    "MVCK"
+   ],
+   "expected": [
+    "HEAT",
+    "CHBH",
+    "MVCK"
+   ]
+  },
+  {
+   "check": "mapping: brooding cold Moderate: chick behaviour, then heaters (v2)",
+   "passed": true,
+   "got": [
+    "CHBH",
+    "HEAT",
+    "MVCK"
+   ],
+   "expected": [
+    "CHBH",
+    "HEAT",
+    "MVCK"
+   ]
+  },
+  {
+   "check": "mapping: heat Severe + low air speed: fans, pads, then the fan belts before the pad pump (v2)",
+   "passed": true,
+   "got": [
+    "FANS",
+    "PADS",
+    "FANB"
+   ],
+   "expected": [
+    "FANS",
+    "PADS",
+    "FANB"
+   ]
+  },
+  {
+   "check": "mapping: heat Severe, RH 80% + low air speed: pads withheld, airflow checks",
+   "passed": true,
+   "got": [
+    "FANS",
+    "FANB",
+    "INLT"
+   ],
+   "expected": [
+    "FANS",
+    "FANB",
+    "INLT"
+   ]
+  },
+  {
+   "check": "mapping: brooding hot Severe: checks before lowering the set point",
+   "passed": true,
+   "got": [
+    "CHBH",
+    "MVCK",
+    "HTSP"
+   ],
+   "expected": [
+    "CHBH",
+    "MVCK",
+    "HTSP"
+   ]
+  },
+  {
+   "check": "mapping: brooding, T missing: checks common to cold and hot",
+   "passed": true,
+   "got": [
+    "CHBH",
+    "MVCK"
+   ],
+   "expected": [
+    "CHBH",
+    "MVCK"
+   ]
+  },
+  {
+   "check": "mapping: NH3 Severe first, then the first task of thermal Moderate (breadth-first)",
+   "passed": true,
+   "got": [
+    "MVUP",
+    "FANS",
+    "LITC"
+   ],
+   "expected": [
+    "MVUP",
+    "FANS",
+    "LITC"
+   ]
+  },
+  {
+   "check": "mapping: NH3+CO2 Moderate tie: each indicator's first task before any second task",
+   "passed": true,
+   "got": [
+    "MVUP",
+    "AIRQ",
+    "LITC"
+   ],
+   "expected": [
+    "MVUP",
+    "AIRQ",
+    "LITC"
+   ]
+  },
+  {
+   "check": "mapping: brooding hot + CO2 Severe tie: chick behaviour, air quality, then ventilation check",
+   "passed": true,
+   "got": [
+    "CHBH",
+    "AIRQ",
+    "MVCK"
+   ],
+   "expected": [
+    "CHBH",
+    "AIRQ",
+    "MVCK"
+   ]
+  },
+  {
+   "check": "mapping: other indicator capped at the persisted level, cause first",
+   "passed": true,
+   "got": [
+    "FANS",
+    "MVUP",
+    "LITC"
+   ],
+   "expected": [
+    "FANS",
+    "MVUP",
+    "LITC"
+   ]
+  },
+  {
+   "check": "mapping: Normal: no task",
+   "passed": true,
+   "got": [],
+   "expected": []
+  },
+  {
+   "check": "possible cause: heat, RH 60%: cooling stage below the load",
+   "passed": true,
+   "got": "COOL",
+   "expected": "COOL"
+  },
+  {
+   "check": "possible cause: heat, RH 80%: humid heat",
+   "passed": true,
+   "got": "HUMH",
+   "expected": "HUMH"
+  },
+  {
+   "check": "possible cause: heat, RH 75.0% is not humid heat (pad limit)",
+   "passed": true,
+   "got": "COOL",
+   "expected": "COOL"
+  },
+  {
+   "check": "possible cause: heat + low air speed: low airflow",
+   "passed": true,
+   "got": "AIRF",
+   "expected": "AIRF"
+  },
+  {
+   "check": "possible cause: brooding cold: heaters or cold air",
+   "passed": true,
+   "got": "HTRC",
+   "expected": "HTRC"
+  },
+  {
+   "check": "possible cause: brooding hot: set point or heat above target",
+   "passed": true,
+   "got": "SETP",
+   "expected": "SETP"
+  },
+  {
+   "check": "possible cause: brooding, T missing: no possible cause",
+   "passed": true,
+   "got": null,
+   "expected": null
+  },
+  {
+   "check": "possible cause: NH3, RH 70%: wet litter",
+   "passed": true,
+   "got": "WETL",
+   "expected": "WETL"
+  },
+  {
+   "check": "possible cause: NH3, RH 69.9%: litter condition",
+   "passed": true,
+   "got": "LITQ",
+   "expected": "LITQ"
+  },
+  {
+   "check": "possible cause: CO2: ventilation below need",
+   "passed": true,
+   "got": "VENT",
+   "expected": "VENT"
+  },
+  {
+   "check": "possible cause: NH3+CO2 tie: the first cause indicator (NH3)",
+   "passed": true,
+   "got": "LITQ",
+   "expected": "LITQ"
+  },
+  {
+   "check": "possible cause: Normal: none",
+   "passed": true,
+   "got": null,
+   "expected": null
+  },
+  {
+   "check": "possible causes: codes <= 4 chars, texts <= 40 chars, every cause has a source",
+   "passed": true
+  },
+  {
+   "check": "pad guard: RH 75.0% allowed, 75.1% withheld",
+   "passed": true
+  },
+  {
+   "check": "pad guard: T 28.0 C withheld, 28.1 C allowed",
+   "passed": true
+  },
+  {
+   "check": "pad guard: week 3 (day 14) withheld, week 4 allowed",
+   "passed": true
+  },
+  {
+   "check": "grid (1,296 cases): <= 3 distinct catalog tasks; tasks iff Moderate/Severe; no fan/pad task before day 21; first task from the most severe indicator; possible cause iff Moderate/Severe and consistent with the tasks (no pads in humid heat, fan-belt check with low airflow)",
+   "passed": true,
+   "failures": []
+  },
+  {
+   "check": "pipeline: no task while persistence holds the level at Normal, tasks once Severe",
+   "passed": true,
+   "a1": [
+    0,
+    []
+   ],
+   "a2": [
+    2,
+    [
+     "FANS",
+     "PADS",
+     "FANB"
+    ]
+   ]
+  },
+  {
+   "check": "pipeline: assessment carries rule version and survives JSON",
+   "passed": true
+  },
+  {
+   "check": "pipeline: brooding target from body weight and RH sets the direction (hot at 35 C, day 1-7)",
+   "passed": true,
+   "got": [
+    "hot",
+    [
+     "CHBH",
+     "MVCK",
+     "HTSP"
+    ]
+   ]
+  },
+  {
+   "check": "local alert text names the source of each task",
+   "passed": true
+  },
+  {
+   "check": "pipeline: assessment carries the possible cause and the task mode (preventive / corrective)",
+   "passed": true,
+   "got": [
+    "AIRF",
+    "corrective",
+    "SETP"
+   ]
+  }
+ ]
+}

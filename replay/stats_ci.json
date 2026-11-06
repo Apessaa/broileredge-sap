@@ -1,0 +1,85 @@
+{
+ "records": 1692,
+ "surveys": 141,
+ "bootstrap_resamples": 10000,
+ "O_undefined": {
+  "value": 0.279,
+  "ci95": [
+   0.208,
+   0.3546
+  ]
+ },
+ "O_ne_P_where_defined": {
+  "value": 0.282,
+  "ci95": [
+   0.2198,
+   0.3492
+  ]
+ },
+ "P2_ne_P_thermal_weeks4to6": {
+  "value": 0.2331,
+  "ci95": [
+   0.1688,
+   0.2995
+  ]
+ },
+ "week1_MS_THI_rule": {
+  "value": 0.9028,
+  "ci95": [
+   0.8125,
+   0.9757
+  ]
+ },
+ "week1_MS_brooding_rule": {
+  "value": 0.2222,
+  "ci95": [
+   0.1006,
+   0.3657
+  ]
+ },
+ "NH3_10_to_20": {
+  "value": 0.0721,
+  "ci95": [
+   0.0443,
+   0.1022
+  ]
+ },
+ "kappa_O_vs_P": {
+  "value": 0.5655,
+  "ci95": [
+   0.4634,
+   0.6576
+  ]
+ },
+ "kappa_linear_O_vs_P": {
+  "value": 0.6063,
+  "ci95": [
+   0.496,
+   0.7061
+  ]
+ },
+ "kappa_thermal_P_vs_P2_weeks4to6": {
+  "value": 0.4329,
+  "ci95": [
+   0.3165,
+   0.5424
+  ]
+ },
+ "confusion_O_rows_P_cols": [
+  [
+   431,
+   48,
+   4
+  ],
+  [
+   90,
+   263,
+   91
+  ],
+  [
+   62,
+   49,
+   182
+  ]
+ ]
+}

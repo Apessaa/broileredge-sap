@@ -1,0 +1,17 @@
+{
+  "name": "zbrl-offstack-abap-check",
+  "version": "1.0.0",
+  "private": true,
+  "description": "abaplint (ABAP 7.02) and ABAP Unit via the abaplint transpiler for the broiler-house kit",
+  "scripts": {
+    "lint": "abaplint abaplint.json",
+    "clean": "node -e \"require('fs').rmSync('output',{recursive:true,force:true})\"",
+    "unit": "npm run clean && abap_transpile abap_transpile.json && node output/index.mjs",
+    "test": "npm run lint && npm run unit"
+  },
+  "devDependencies": {
+    "@abaplint/cli": "^2.100.0",
+    "@abaplint/transpiler-cli": "^2.10.0",
+    "@abaplint/runtime": "^2.10.0"
+  }
+}

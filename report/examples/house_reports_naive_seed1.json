@@ -1,0 +1,812 @@
+[
+ {
+  "flock": "summer",
+  "house": 1,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-07-03T08:00:00",
+   "2000-07-31T16:00:00"
+  ],
+  "data": {
+   "received": 24,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 5,
+    "Moderate": 8,
+    "Severe": 11
+   },
+   "share_per_level": {
+    "Normal": 0.2083,
+    "Moderate": 0.3333,
+    "Severe": 0.4583
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "2": "Severe",
+    "7": "Severe"
+   },
+   "peaks": {
+    "THI": 44.57,
+    "NH3": 5.0,
+    "CO2": 5538.0
+   },
+   "low_air_speed_windows": 1
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 14,
+    "COOL": 3,
+    "HTRC": 1,
+    "AIRF": 1
+   },
+   "severe_episode_starts": {
+    "SETP": 11
+   },
+   "notifications": {
+    "SETP": 2
+   },
+   "recurring": [
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 2,
+   "task_status": {
+    "overdue": 6
+   },
+   "recovery": {},
+   "items": [
+    {
+     "notification": 2,
+     "ts": "2000-07-10T16:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "AIRQ",
+       "text": "Measure air quality, adjust ventilation",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    },
+    {
+     "notification": 5,
+     "ts": "2000-07-17T12:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "HTSP",
+       "text": "Lower brooding set point after checks",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "flock": "summer",
+  "house": 2,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-07-03T08:00:00",
+   "2000-08-07T16:00:00"
+  ],
+  "data": {
+   "received": 20,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 2,
+    "Moderate": 6,
+    "Severe": 12
+   },
+   "share_per_level": {
+    "Normal": 0.1,
+    "Moderate": 0.3,
+    "Severe": 0.6
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "8": "Severe"
+   },
+   "peaks": {
+    "THI": 31.15,
+    "NH3": 36.0,
+    "CO2": 3708.0
+   },
+   "low_air_speed_windows": 8
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 7,
+    "AIRF": 7,
+    "WETL": 2,
+    "LITQ": 1,
+    "HTRC": 1
+   },
+   "severe_episode_starts": {
+    "SETP": 6,
+    "AIRF": 3,
+    "LITQ": 1,
+    "HTRC": 1,
+    "WETL": 1
+   },
+   "notifications": {
+    "SETP": 2
+   },
+   "recurring": [
+    {
+     "code": "AIRF",
+     "text": "Low airflow (fans, belts or inlet)"
+    },
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 2,
+   "task_status": {
+    "overdue": 6
+   },
+   "recovery": {},
+   "items": [
+    {
+     "notification": 3,
+     "ts": "2000-07-10T16:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "AIRQ",
+       "text": "Measure air quality, adjust ventilation",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    },
+    {
+     "notification": 7,
+     "ts": "2000-07-17T16:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "HTSP",
+       "text": "Lower brooding set point after checks",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "flock": "summer",
+  "house": 3,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-07-03T08:00:00",
+   "2000-08-07T16:00:00"
+  ],
+  "data": {
+   "received": 22,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 1,
+    "Moderate": 9,
+    "Severe": 12
+   },
+   "share_per_level": {
+    "Normal": 0.0455,
+    "Moderate": 0.4091,
+    "Severe": 0.5455
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "2": "Moderate",
+    "6": "Severe"
+   },
+   "peaks": {
+    "THI": 34.61,
+    "NH3": 23.0,
+    "CO2": 3038.0
+   },
+   "low_air_speed_windows": 13
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "AIRF": 13,
+    "SETP": 6,
+    "LITQ": 1,
+    "HTRC": 1
+   },
+   "severe_episode_starts": {
+    "SETP": 5,
+    "AIRF": 5,
+    "LITQ": 1,
+    "HTRC": 1
+   },
+   "notifications": {
+    "SETP": 1,
+    "AIRF": 1
+   },
+   "recurring": [
+    {
+     "code": "AIRF",
+     "text": "Low airflow (fans, belts or inlet)"
+    },
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 2,
+   "task_status": {
+    "overdue": 6
+   },
+   "recovery": {},
+   "items": [
+    {
+     "notification": 8,
+     "ts": "2000-07-17T16:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "HTSP",
+       "text": "Lower brooding set point after checks",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    },
+    {
+     "notification": 9,
+     "ts": "2000-07-31T12:00:00",
+     "zone": 1,
+     "possible_cause": "AIRF",
+     "tasks": [
+      {
+       "task": "FANS",
+       "text": "Raise fan stage to increase air speed",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "PADS",
+       "text": "Run cooling pads after raising fan stage",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "FANB",
+       "text": "Check fan belt tension and clean fans",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "flock": "summer",
+  "house": 4,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-07-03T08:00:00",
+   "2000-08-07T16:00:00"
+  ],
+  "data": {
+   "received": 21,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 2,
+    "Moderate": 7,
+    "Severe": 12
+   },
+   "share_per_level": {
+    "Normal": 0.0952,
+    "Moderate": 0.3333,
+    "Severe": 0.5714
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "3": "Moderate",
+    "5": "Severe"
+   },
+   "peaks": {
+    "THI": 36.52,
+    "NH3": 15.0,
+    "CO2": 1505.0
+   },
+   "low_air_speed_windows": 9
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 10,
+    "AIRF": 9
+   },
+   "severe_episode_starts": {
+    "SETP": 9,
+    "AIRF": 3
+   },
+   "notifications": {
+    "SETP": 2
+   },
+   "recurring": [
+    {
+     "code": "AIRF",
+     "text": "Low airflow (fans, belts or inlet)"
+    },
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 2,
+   "task_status": {
+    "overdue": 6
+   },
+   "recovery": {},
+   "items": [
+    {
+     "notification": 4,
+     "ts": "2000-07-10T16:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "HTSP",
+       "text": "Lower brooding set point after checks",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    },
+    {
+     "notification": 6,
+     "ts": "2000-07-17T12:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "HTSP",
+       "text": "Lower brooding set point after checks",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "flock": "winter",
+  "house": 1,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-01-03T08:00:00",
+   "2000-02-07T16:00:00"
+  ],
+  "data": {
+   "received": 20,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 8,
+    "Moderate": 9,
+    "Severe": 3
+   },
+   "share_per_level": {
+    "Normal": 0.4,
+    "Moderate": 0.45,
+    "Severe": 0.15
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "2": "Moderate",
+    "3": "Moderate",
+    "7": "Moderate",
+    "9": "Moderate"
+   },
+   "peaks": {
+    "THI": 29.75,
+    "NH3": 5.0,
+    "CO2": 1411.0
+   },
+   "low_air_speed_windows": 4
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 5,
+    "AIRF": 4,
+    "HTRC": 3
+   },
+   "severe_episode_starts": {
+    "HTRC": 3
+   },
+   "notifications": {},
+   "recurring": [
+    {
+     "code": "HTRC",
+     "text": "Heaters low or cold air reaching chicks"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 0,
+   "task_status": {},
+   "recovery": {},
+   "items": []
+  }
+ },
+ {
+  "flock": "winter",
+  "house": 2,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-01-03T08:00:00",
+   "2000-02-07T16:00:00"
+  ],
+  "data": {
+   "received": 21,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 4,
+    "Moderate": 10,
+    "Severe": 7
+   },
+   "share_per_level": {
+    "Normal": 0.1905,
+    "Moderate": 0.4762,
+    "Severe": 0.3333
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "2": "Moderate",
+    "3": "Moderate",
+    "6": "Moderate",
+    "7": "Severe",
+    "12": "Moderate"
+   },
+   "peaks": {
+    "THI": 29.1,
+    "NH3": 37.0,
+    "CO2": 3661.0
+   },
+   "low_air_speed_windows": 3
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 7,
+    "LITQ": 4,
+    "AIRF": 3,
+    "COOL": 2,
+    "WETL": 1
+   },
+   "severe_episode_starts": {
+    "SETP": 5,
+    "LITQ": 1,
+    "WETL": 1
+   },
+   "notifications": {
+    "SETP": 1
+   },
+   "recurring": [
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 1,
+   "task_status": {
+    "overdue": 3
+   },
+   "recovery": {},
+   "items": [
+    {
+     "notification": 1,
+     "ts": "2000-01-17T16:00:00",
+     "zone": 1,
+     "possible_cause": "SETP",
+     "tasks": [
+      {
+       "task": "CHBH",
+       "text": "Check chick behaviour at the brooders",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "MVCK",
+       "text": "Check minimum ventilation rate",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      },
+      {
+       "task": "HTSP",
+       "text": "Lower brooding set point after checks",
+       "status": "overdue",
+       "by": null,
+       "recovery": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "flock": "winter",
+  "house": 3,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-01-03T08:00:00",
+   "2000-02-07T16:00:00"
+  ],
+  "data": {
+   "received": 21,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 10,
+    "Moderate": 8,
+    "Severe": 3
+   },
+   "share_per_level": {
+    "Normal": 0.4762,
+    "Moderate": 0.381,
+    "Severe": 0.1429
+   },
+   "worst_level_per_zone": {
+    "1": "Severe",
+    "2": "Moderate",
+    "8": "Severe"
+   },
+   "peaks": {
+    "THI": 29.69,
+    "NH3": 12.0,
+    "CO2": 2108.0
+   },
+   "low_air_speed_windows": 2
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 9,
+    "AIRF": 2
+   },
+   "severe_episode_starts": {
+    "SETP": 3
+   },
+   "notifications": {},
+   "recurring": [
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 0,
+   "task_status": {},
+   "recovery": {},
+   "items": []
+  }
+ },
+ {
+  "flock": "winter",
+  "house": 4,
+  "rule_versions": [
+   "2026-10-v2"
+  ],
+  "period": [
+   "2000-01-03T08:00:00",
+   "2000-02-07T16:00:00"
+  ],
+  "data": {
+   "received": 19,
+   "not_rated_windows": 0
+  },
+  "conditions": {
+   "windows_per_level": {
+    "Normal": 7,
+    "Moderate": 7,
+    "Severe": 5
+   },
+   "share_per_level": {
+    "Normal": 0.3684,
+    "Moderate": 0.3684,
+    "Severe": 0.2632
+   },
+   "worst_level_per_zone": {
+    "1": "Moderate",
+    "2": "Moderate",
+    "5": "Severe",
+    "6": "Severe",
+    "7": "Severe",
+    "12": "Severe"
+   },
+   "peaks": {
+    "THI": 28.87,
+    "NH3": 26.0,
+    "CO2": 2446.0
+   },
+   "low_air_speed_windows": 3
+  },
+  "possible_causes": {
+   "moderate_or_severe_windows": {
+    "SETP": 6,
+    "AIRF": 3,
+    "LITQ": 2,
+    "WETL": 1
+   },
+   "severe_episode_starts": {
+    "SETP": 4,
+    "LITQ": 1
+   },
+   "notifications": {},
+   "recurring": [
+    {
+     "code": "SETP",
+     "text": "Set point or heat above the target"
+    }
+   ]
+  },
+  "notification_check": {
+   "notifications": 0,
+   "task_status": {},
+   "recovery": {},
+   "items": []
+  }
+ }
+]

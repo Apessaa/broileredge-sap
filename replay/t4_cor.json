@@ -1,0 +1,101 @@
+{
+ "winter": {
+  "n": 864,
+  "P_NMS": [
+   57.5,
+   31.2,
+   11.2
+  ],
+  "V0_pct": 50.0,
+  "O_ne_P_pct": 15.5,
+  "wk1_THI_MS_pct": 80.6,
+  "wk1_brood_MS_pct": 26.4,
+  "wk1_brood_N_pct": 73.6,
+  "dT_med_wk2": 1.8,
+  "dT_med_wk3": 3.4,
+  "P2_ne_P_thermal_w46_pct": 15.5,
+  "diag_w46_pct": 14.8,
+  "NH3_lod_gt10_gt20": [
+   51.0,
+   11.8,
+   2.7
+  ],
+  "CO2_gt3000_pct": 0.5,
+  "severe_n": 97,
+  "severe_brood_n": 82,
+  "thvi_cap_ge35_w46_n": 0,
+  "V_gt_0.8_w46_pct": 76.2,
+  "V_lt_1.8_w46_pct": 85.6,
+  "NH3_flip_pct": 24.4,
+  "NH3_10_20_pct": 9.1,
+  "Tstar_med_wk3": 24.9
+ },
+ "summer": {
+  "n": 828,
+  "P_NMS": [
+   15.9,
+   39.5,
+   44.6
+  ],
+  "V0_pct": 4.8,
+  "O_ne_P_pct": 34.1,
+  "wk1_THI_MS_pct": 74.3,
+  "wk1_brood_MS_pct": 49.3,
+  "wk1_brood_N_pct": 50.7,
+  "dT_med_wk2": 5.2,
+  "dT_med_wk3": 5.8,
+  "P2_ne_P_thermal_w46_pct": 46.0,
+  "diag_w46_pct": 70.7,
+  "NH3_lod_gt10_gt20": [
+   64.1,
+   7.1,
+   1.9
+  ],
+  "CO2_gt3000_pct": 3.9,
+  "severe_n": 369,
+  "severe_brood_n": 252,
+  "thvi_cap_ge35_w46_n": 4,
+  "V_gt_0.8_w46_pct": 85.4,
+  "V_lt_1.8_w46_pct": 89.9,
+  "NH3_flip_pct": 15.0,
+  "NH3_10_20_pct": 5.2,
+  "Tstar_med_wk3": 23.4
+ },
+ "all": {
+  "n": 1692,
+  "P_NMS": [
+   37.2,
+   35.3,
+   27.5
+  ],
+  "V0_pct": 27.9,
+  "O_ne_P_pct": 27.5,
+  "wk1_THI_MS_pct": 77.4,
+  "wk1_brood_MS_pct": 37.8,
+  "wk1_brood_N_pct": 62.2,
+  "dT_med_wk2": 3.3,
+  "dT_med_wk3": 4.8,
+  "P2_ne_P_thermal_w46_pct": 30.1,
+  "diag_w46_pct": 41.5,
+  "NH3_lod_gt10_gt20": [
+   57.4,
+   9.5,
+   2.3
+  ],
+  "CO2_gt3000_pct": 2.1,
+  "severe_n": 466,
+  "severe_brood_n": 334,
+  "thvi_cap_ge35_w46_n": 4,
+  "V_gt_0.8_w46_pct": 80.6,
+  "V_lt_1.8_w46_pct": 87.7,
+  "NH3_flip_pct": 19.8,
+  "NH3_10_20_pct": 7.2,
+  "Tstar_med_wk3": 23.8
+ },
+ "spatial": {
+  "n": 141,
+  "all_pct": 32.6,
+  "winter_pct": 34.7,
+  "summer_pct": 30.4
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "mock_idem": {
+  "runs": 5,
+  "reports": 40,
+  "assessments_counted": 705,
+  "notifications": 25,
+  "notification_possible_causes": {
+   "SETP": 25
+  },
+  "recurring_houses": {
+   "SETP": 35,
+   "AIRF": 15,
+   "HTRC": 5
+  },
+  "tasks": {
+   "overdue": 75
+  },
+  "per_run": [
+   {
+    "run": "mock_idem_seed1",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_idem_seed2",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_idem_seed3",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_idem_seed4",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_idem_seed5",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   }
+  ]
+ },
+ "mock_naive": {
+  "runs": 5,
+  "reports": 40,
+  "assessments_counted": 843,
+  "notifications": 46,
+  "notification_possible_causes": {
+   "SETP": 38,
+   "AIRF": 7,
+   "WETL": 1
+  },
+  "recurring_houses": {
+   "SETP": 35,
+   "AIRF": 15,
+   "HTRC": 5,
+   "WETL": 1
+  },
+  "tasks": {
+   "overdue": 129,
+   "outstanding": 9
+  },
+  "per_run": [
+   {
+    "run": "mock_naive_seed1",
+    "assessments_counted": 168,
+    "notifications": 9,
+    "notification_possible_causes": {
+     "SETP": 8,
+     "AIRF": 1
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_naive_seed2",
+    "assessments_counted": 171,
+    "notifications": 8,
+    "notification_possible_causes": {
+     "SETP": 5,
+     "AIRF": 2,
+     "WETL": 1
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1,
+     "WETL": 1
+    }
+   },
+   {
+    "run": "mock_naive_seed3",
+    "assessments_counted": 169,
+    "notifications": 11,
+    "notification_possible_causes": {
+     "SETP": 10,
+     "AIRF": 1
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_naive_seed4",
+    "assessments_counted": 163,
+    "notifications": 9,
+    "notification_possible_causes": {
+     "SETP": 7,
+     "AIRF": 2
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "mock_naive_seed5",
+    "assessments_counted": 172,
+    "notifications": 9,
+    "notification_possible_causes": {
+     "SETP": 8,
+     "AIRF": 1
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   }
+  ]
+ },
+ "soap-mock_idem": {
+  "runs": 3,
+  "reports": 24,
+  "assessments_counted": 423,
+  "notifications": 15,
+  "notification_possible_causes": {
+   "SETP": 15
+  },
+  "recurring_houses": {
+   "SETP": 21,
+   "AIRF": 9,
+   "HTRC": 3
+  },
+  "tasks": {
+   "overdue": 45
+  },
+  "per_run": [
+   {
+    "run": "soap-mock_idem_seed1",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "soap-mock_idem_seed2",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   },
+   {
+    "run": "soap-mock_idem_seed3",
+    "assessments_counted": 141,
+    "notifications": 5,
+    "notification_possible_causes": {
+     "SETP": 5
+    },
+    "recurring_houses": {
+     "SETP": 7,
+     "AIRF": 3,
+     "HTRC": 1
+    }
+   }
+  ]
+ }
+}

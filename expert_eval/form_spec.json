@@ -1,0 +1,383 @@
+{
+ "items": [
+  {
+   "id": "R1",
+   "number": 1,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Ambang NH₃: Sedang di atas 10 ppm, Berat di atas 20 ppm.",
+   "text_en": "NH₃ limits: Moderate above 10 ppm, Severe above 20 ppm.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "R2",
+   "number": 2,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Ambang CO₂: Sedang di atas 3.000 ppm, Berat di atas 3.500 ppm.",
+   "text_en": "CO₂ limits: Moderate above 3,000 ppm, Severe above 3,500 ppm.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "R3",
+   "number": 3,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Kelas THI mulai hari ke-21: Normal di bawah 26, Sedang 26–29, Berat di atas 29.",
+   "text_en": "THI classes from day 21: Normal below 26, Moderate 26–29, Severe above 29.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "R4",
+   "number": 4,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Sebelum hari ke-21, anak ayam dinilai dari selisih suhu terhadap target Ross menurut bobot sampel dan RH (Normal ≤ 2 °C, Sedang > 2–4 °C, Berat > 4 °C), bukan dari indeks panas.",
+   "text_en": "Before day 21, chicks are rated by the deviation from the Ross target by sample weight and RH (Normal ≤ 2 °C, Moderate > 2–4 °C, Severe > 4 °C), not by a heat index.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "R5",
+   "number": 5,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Aturan persistensi: tingkat zona naik setelah 2 jendela 5 menit berturut-turut dan turun setelah 3, sebagai keseimbangan antara kecepatan dan alarm palsu.",
+   "text_en": "Persistence rule: a zone level rises after 2 consecutive 5-minute windows and falls after 3, as a balance between speed and false alarms.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "R6",
+   "number": 6,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Lima parameter (suhu, RH, CO₂, NH₃, kecepatan angin) untuk menilai kondisi hidup ayam di kandang.",
+   "text_en": "Five parameters (temperature, RH, CO₂, NH₃, air speed) to judge the birds' living conditions.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "R7",
+   "number": 7,
+   "block": "A1",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Tiga zona (inlet, tengah, exhaust) untuk mewakili kondisi sepanjang kandang 120 m.",
+   "text_en": "Three zones (inlet, middle, exhaust) to represent conditions along a 120 m house.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "T1",
+   "number": 8,
+   "block": "A2",
+   "domains": [
+    "a",
+    "d"
+   ],
+   "text_id": "Keluaran berupa tingkat dan penyebab (misalnya “Berat – NH₃”) mudah dipahami kepala kandang.",
+   "text_en": "The output as level and cause (e.g. “Severe – NH₃”) is easy for the farm head to understand.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "T2",
+   "number": 9,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Kemungkinan penyebab yang ditampilkan bersama setiap penilaian (misalnya “set point atau panas di atas target”) mengarahkan kepala kandang ke bagian yang tepat untuk diperiksa.",
+   "text_en": "The possible cause shown with each rating (e.g. “set point or heat above the target”) points the farm head to the right thing to check.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "T3",
+   "number": 10,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Tugas pertama yang disarankan aman dilakukan, tanpa menimbulkan risiko baru bagi ayam atau peralatan.",
+   "text_en": "The first tasks suggested are safe to carry out, without creating new risks for the birds or the equipment.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "T4",
+   "number": 11,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Sumber yang dicantumkan pada setiap tugas membuat staf lebih yakin untuk menjalankannya.",
+   "text_en": "The source given with each task makes staff more confident to carry it out.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "T5",
+   "number": 12,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b"
+   ],
+   "text_id": "Jumlah pemberitahuan, peringatan dan tugas dari sistem ini berisiko terlalu banyak sehingga staf mulai mengabaikannya.",
+   "text_en": "The number of notices, alerts and tasks from this system risks being so high that staff start to ignore them.",
+   "negative": true,
+   "attention_check": false
+  },
+  {
+   "id": "CHK",
+   "number": 13,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "text_id": "Sistem membuka satu notifikasi SAP PM setiap kali satu zona dinilai Berat.",
+   "text_en": "The system opens one SAP PM notification every time a zone is rated Severe.",
+   "negative": false,
+   "attention_check": true
+  },
+  {
+   "id": "S1",
+   "number": 14,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "text_id": "Satu notifikasi SAP PM setelah tiga episode Berat di satu zona dalam 24 jam adalah tingkat eskalasi yang tepat: tidak terlalu cepat dan tidak terlalu lambat.",
+   "text_en": "One SAP PM notification after three Severe episodes in a zone within 24 hours is the right level of escalation: neither too early nor too late.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "S2",
+   "number": 15,
+   "block": "A2",
+   "domains": [
+    "c"
+   ],
+   "text_id": "Bagian SAP (tabel kustom, satu function module RFC, user teknis) dapat diterapkan pada SAP ECC 6.0 tanpa memodifikasi objek standar SAP.",
+   "text_en": "The SAP part (custom table, one RFC-enabled function module, technical user) can be implemented in SAP ECC 6.0 without modifying standard SAP objects.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "S3",
+   "number": 16,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "text_id": "Mencatat di SAP PM apakah setiap tugas sudah dikerjakan bermanfaat bagi technical service untuk mengevaluasi tindakan di kandang.",
+   "text_en": "Recording in SAP PM whether each task was done helps technical service evaluate the actions taken in the house.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "S4",
+   "number": 17,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "text_id": "Laporan harian per kandang di SAP (status tugas dan apakah kondisi kembali Normal) cukup untuk menilai apakah tindakan berhasil.",
+   "text_en": "The daily SAP report per house (task status and whether conditions returned to Normal) is enough to judge whether the actions worked.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "S5",
+   "number": 18,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "text_id": "Kewajiban menandai tugas selesai di SAP PM akan menjadi beban administrasi yang sulit dipenuhi staf atau kantor farm.",
+   "text_en": "Having to mark tasks done in SAP PM would be an administrative burden that staff or the farm office could hardly meet.",
+   "negative": true,
+   "attention_check": false
+  },
+  {
+   "id": "G1",
+   "number": 19,
+   "block": "A2",
+   "domains": [
+    "a",
+    "c"
+   ],
+   "text_id": "Alur kerja sistem ini sesuai dengan SOP dan pembagian peran di farm closed house yang saya kenal.",
+   "text_en": "The workflow of this system fits the SOPs and roles of the closed-house farms I know.",
+   "negative": false,
+   "attention_check": false
+  },
+  {
+   "id": "G2",
+   "number": 20,
+   "block": "A2",
+   "domains": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "text_id": "Saya akan mendukung uji coba (pilot) sistem ini di kandang closed house.",
+   "text_en": "I would support a pilot of this system in a closed house.",
+   "negative": false,
+   "attention_check": false
+  }
+ ],
+ "cases": [
+  {
+   "case": "C1",
+   "scenario": "S01",
+   "level": "Normal",
+   "normal": true,
+   "possible_cause": null,
+   "tasks": [],
+   "rule_cause": "none"
+  },
+  {
+   "case": "C2",
+   "scenario": "S02",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "SETP",
+   "tasks": [
+    "CHBH",
+    "MVCK",
+    "HTSP"
+   ],
+   "rule_cause": "thermal"
+  },
+  {
+   "case": "C3",
+   "scenario": "S04",
+   "level": "Moderate",
+   "normal": false,
+   "possible_cause": "AIRF",
+   "tasks": [
+    "FANS",
+    "FANB",
+    "INLT"
+   ],
+   "rule_cause": "thermal"
+  },
+  {
+   "case": "C4",
+   "scenario": "S05",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "LITQ",
+   "tasks": [
+    "MVUP",
+    "LITC",
+    "LITR"
+   ],
+   "rule_cause": "NH3"
+  },
+  {
+   "case": "C5",
+   "scenario": "S07",
+   "level": "Moderate",
+   "normal": false,
+   "possible_cause": "SETP",
+   "tasks": [
+    "CHBH",
+    "MVCK"
+   ],
+   "rule_cause": "thermal"
+  },
+  {
+   "case": "C6",
+   "scenario": "S08",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "AIRF",
+   "tasks": [
+    "FANS",
+    "PADS",
+    "FANB"
+   ],
+   "rule_cause": "thermal"
+  },
+  {
+   "case": "C7",
+   "scenario": "S09",
+   "level": "Severe",
+   "normal": false,
+   "possible_cause": "SETP",
+   "tasks": [
+    "CHBH",
+    "AIRQ",
+    "MVCK"
+   ],
+   "rule_cause": "thermal+CO2"
+  },
+  {
+   "case": "C8",
+   "scenario": "S10",
+   "level": "Normal",
+   "normal": true,
+   "possible_cause": null,
+   "tasks": [],
+   "rule_cause": "none"
+  },
+  {
+   "case": "C9",
+   "scenario": "S11",
+   "level": "Moderate",
+   "normal": false,
+   "possible_cause": "LITQ",
+   "tasks": [
+    "MVUP",
+    "LITC"
+   ],
+   "rule_cause": "NH3"
+  }
+ ],
+ "dropped": {
+  "S06": "same level, cause, possible cause and tasks as S04"
+ },
+ "normal_near": [
+  "S01",
+  "S10"
+ ]
+}

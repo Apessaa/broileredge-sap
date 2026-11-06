@@ -1,0 +1,24 @@
+
+> zbrl-offstack-abap-check@1.0.0 unit
+> npm run clean && abap_transpile abap_transpile.json && node output/index.mjs
+
+
+> zbrl-offstack-abap-check@1.0.0 clean
+> node -e "require('fs').rmSync('output',{recursive:true,force:true})"
+
+Transpiler CLI
+Using config: abap_transpile.json
+3 files added from source
+14 files skipped in source
+
+Building
+From folder: C:\Users\<user>\Downloads\replication_package_v18\kit\sap\offstack\src
+	0 files added from lib
+
+
+Output
+Output files: 9 written
+ZCL_BRL_HOUSE_REPORT: running ltcl_report->completeness_and_gap
+TypeError: Cannot read properties of undefined (reading 'assert_equals')
+    at #completeness_and_gap (file:///C:/Users/<user>/Downloads/replication_package_v18/kit/sap/offstack/output/project/zcl_brl_house_report.clas.testclasses.mjs:249:47)
+    at async run (file:///C:/Users/<user>/Downloads/replication_package_v18/kit/sap/offstack/output/index.mjs:36:9)

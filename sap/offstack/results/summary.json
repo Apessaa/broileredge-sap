@@ -1,0 +1,9 @@
+{
+ "date": "2026-10-28",
+ "where": "authors' Windows PC, Node.js, outside SAP",
+ "lint": {"tool": "abaplint 2.120.89", "release": "v702", "files": 17, "issues": 0},
+ "unit": {"tool": "@abaplint/transpiler-cli with open-abap-core commit f735eed652288c8ed85b3083a187cc3e7e4a9b97",
+          "class": "ZCL_BRL_HOUSE_REPORT", "test_methods_run": 6, "failures": 0},
+ "not_covered": "BAPIs, lock, update task, PM notifications, background job: sandbox tests T1-T14 in SAP_KIT.md",
+ "outputs": "results/2026-10-28_run2/ (run1: lint only; unit tests did not start because of a library setting)"
+}

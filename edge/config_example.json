@@ -1,0 +1,20 @@
+{
+ "_comment": "Bus and devices as in Fig. 2 of the paper. All devices must be set to 9600 baud 8N1 first (see bench/BENCH_PROTOCOL.md).",
+ "bus": {"port": "/dev/ttyUSB0", "baud": 9600, "parity": "N", "stopbits": 1, "timeout_s": 0.5},
+ "devices": [
+  {"model": "ODMHM-R", "unit": 1, "zone": 1},
+  {"model": "ODMHM-R", "unit": 2, "zone": 2},
+  {"model": "ODMHM-R", "unit": 3, "zone": 3},
+  {"model": "S-NH3-01", "unit": 11, "zone": 2},
+  {"model": "S-NH3-01", "unit": 12, "zone": 3},
+  {"model": "HD53LS.S", "unit": 21, "zone": 2}
+ ],
+ "poll_s": 60,
+ "window_s": 300,
+ "flock": {"id": "BENCH-01", "house": 1, "placement_date": "2026-11-02", "initial_weight_g": 44,
+           "weights_csv": "weights.csv"},
+ "log_dir": "logs",
+ "maintenance_file": "maintenance.flag",
+ "middleware_url": null,
+ "send_timeout_s": 2.0
+}

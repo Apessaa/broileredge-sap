@@ -1,0 +1,12 @@
+item,model,qty,unit_price,currency,price_basis,source,url,accessed,note
+Edge computer,Raspberry Pi 5 4GB,1,110.00,USD,list price,magazin Mehatronika 2026 Raspberry Pi pricing guide (updated 14 Aug 2026),https://magazinmehatronika.com/en/the-2026-raspberry-pi-pricing-and-buying-guide/,2026-10-29,"Official site confirms the April 2026 increase (16GB $305); Feb 2026 price was $85 (PCWorld)"
+Power supply,Official Raspberry Pi 27W USB-C,1,14.04,USD,retail,Adafruit product 5814,https://www.adafruit.com/product/5814,2026-10-29,
+Case,Official Raspberry Pi 5 case + fan,1,12.00,USD,retail,Adafruit product 5816,https://www.adafruit.com/product/5816,2026-10-29,The Pi sits in the farm office
+Storage,Official Raspberry Pi A2 microSD 64GB,1,20.85,USD,retail,Jameco 2882815,https://www.jameco.com/z/6011-Adafruit-Industries-Official-Raspberry-Pi-A2-Class-microSD-Card-64GB-Blank_2882815.html,2026-10-29,
+UPS,Waveshare UPS HAT (E),1,32.99,USD,maker list price,Waveshare,https://www.waveshare.com/ups-hat-e.htm,2026-10-29,Batteries not included
+UPS batteries,Samsung 50E 21700,4,6.99,USD,retail,18650 Battery Store,https://www.18650batterystore.com/collections/21700-batteries/products/samsung-50e,2026-10-29,
+RS-485 adapter,Waveshare Industrial USB to RS485 (SKU 17286),1,10.99,USD,maker list price,Waveshare,https://www.waveshare.com/usb-to-rs485.htm,2026-10-29,Not galvanically isolated
+NH3 sensor,Seeed S-NH3-01 (SKU 101990862),2,169.00,USD,maker list price,Seeed Studio,https://www.seeedstudio.com/RS485-NH3-Sensor-Connector-p-5113.html,2026-10-29,10+ units $139
+Anemometer,Delta OHM HD53LS.S (RS485 Modbus RTU),1,1056.00,EUR,distributor price excl. 19% VAT (EUR 1256.64 incl.),Priggen Special Electronic (Germany),https://www.priggen.com/2-achsiges-Ultraschall-Anemometer-fuer-sehr-niedrige-Windgeschwindigkeit-HD53LSS-S485-MODBUS-RTU-Ausgang,2026-10-29,
+RS-485 cable,Belden 3105A (1 pair 22 AWG shielded),130,10.38,USD per m,"distributor price $3163.82 per 1000 ft (304.8 m), pro rata",Markertek,https://www.markertek.com/product/bl-3105a-1000/belden-3105a-automation-and-process-control-cable-1000-feet,2026-10-29,"Assumed length 130 m (120 m house + 10 m to the office); sold by the spool; cheaper local RS-485 cable not priced"
+Climate transmitter,Sentera ODMHM-R (T RH CO2),3,,,not public,Sentera webshop (price after login),https://www.sentera.eu/en/productdetails/co2-sensor-humidity-protection-ip65-enclosure-pom/158655,2026-10-29,"Price on request; listed under 'End of life approaching'"
